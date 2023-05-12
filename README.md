@@ -1,2 +1,17 @@
-# project-gaes4-iqo
-project-gaes4-iqo created by GitHub Classroom
+# Repositorio proyecto IQO
+
+## Objetivo general 🎯
+
+## Objetivos específicos 🎯 
+
+## Planteamiento del problema 😵‍💫
+
+## Justificación 
+
+## Alcance 🚀
+
+## Integrantes ⛷️
+* Alison Valoyes
+* Diana Carolina Riaño
+* Karol Celis
+* Jhohan Rodriguez
