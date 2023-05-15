@@ -30,5 +30,5 @@ El sistema IQO que se implementará en la empresa Control y Seguridad S.A.S, per
 ## Integrantes ⛷️
 * Alison Valoyes
 * Diana Carolina Riaño
-* Karol Celis
+* Karoll Celis
 * Jhohan Rodriguez
