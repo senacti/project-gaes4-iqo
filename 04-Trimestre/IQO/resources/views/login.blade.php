@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  //ok 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,9 +22,9 @@
 
 <nav class="navbar navbar-expand-lg navbar navbar-light rounded sticky-top" style="background-color: #e3f2fd;">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{ url('index (1).html') }}">
+        <a class="navbar-brand" href="{{ url('/login') }}">
             <img src="{{ asset('images/logoIQO.png') }}" alt="logoIQO" width="170px">
-        </a>
+      </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -35,22 +36,22 @@
                 <i class="fas fa-user fa-lg"></i>Iniciar Sesión</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="QuienSomos.html" style="font-size: 18px;">
+              <a class="nav-link" href="{{ url('QuienesSomos')}}" style="font-size: 18px;">
                 <i class="fa-solid fa-cloud-question fa-lg"></i>¿Quienes Somos?</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false" style="font-size: 18px;"><i class="fa-duotone fa-book-open-reader fa-lg"></i> Catálogo</a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="ProCamaras.html">Cámaras</a></li>
-                <li><a class="dropdown-item" href="Prodvr.html">DVR</a></li>
-                <li><a class="dropdown-item" href="ProDiscosDuros.html">Discos Duros</a></li>
-                <li><a class="dropdown-item" href="Proups.html">UPS</a></li>
-                <li><a class="dropdown-item" href="ProFuentes.html">Fuentes</a></li>
+                <li><a class="dropdown-item" href="{{ url('/CatalogoCamaras')}}">Cámaras</a></li>
+                <li><a class="dropdown-item" href="{{ url('/CatalogoDVR')}}">DVR</a></li>
+                <li><a class="dropdown-item" href="{{url('/CatalogoDiscoDuro')}}">Discos Duros</a></li>
+                <li><a class="dropdown-item" href="{{ url('/CatalogoUPS')}}">UPS</a></li>
+                <li><a class="dropdown-item" href=" {{ url('CatalogoFuentes')}}">Fuentes</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Contactenos.html" style="font-size: 18px;"><i class="fa-solid fa-headset fa-lg"></i> Contacto</a>
+              <a class="nav-link" href="{{ url('Contacto')}}" style="font-size: 18px;"><i class="fa-solid fa-headset fa-lg"></i> Contacto</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -76,25 +77,25 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item img1 min-vh-100 active">
-                <img src="images/img1.png" class="d-block w-100" alt="...">
+                <img src="{{ asset('images/img1.png') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5 class="font-weight-bold text-light">Seguridad Para tu Hogar o Empresa</h5>
                 </div>
               </div>
               <div class="carousel-item img2 min-vh-100">
-                <img src="images/img2.PNG" class="d-block w-100" alt="...">
+                <img src="{{ asset('images/img2.png') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5 class="font-weight-bold text-light">Visita Nuestro Catálogo</h5>
                 </div>
               </div>
               <div class="carousel-item img3 min-vh-100">
-                <img src="images/img3.PNG" class="d-block w-100" alt="...">
+                <img src="{{ asset('images/img3.png') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5 class="font-weight-bold text-light">Acércate a nuestra Tienda</h5>
                 </div>
               </div>
               <div class="carousel-item img4 min-vh-100">
-                <img src="images/img4.PNG" class="d-block w-100" alt="...">
+                <img src="{{ asset('images/img4.png') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5 class="font-weight-bold text-light">No olvides Registrarte</h5>
                 </div>
@@ -114,7 +115,7 @@
         </div>
         <div class="col-lg-5 d-flex flex-column  min-vh-100">
             <div class="px-lg-3 pt-lg-2 pb-lg-1 p-1 w-100">
-                <img src="logo/logoempresa (1).png" class="img-fluid" width="150px">
+                <img src="{{ asset('logo/logoempresa (1).png') }}" class="img-fluid" width="150px">
               </div>
           <div class="px-lg-5 py-lg-4 p-4">
             <h1 class="font-weight-bold mb-4 text-center text-light" style="font-size: 50px;">
@@ -162,7 +163,7 @@
           </div>
           <div class="text-center px-lg-5 pt-lg-3 pb-lg-4 p-4 w-100">
             <p class="d-inline-black mb-0 form-text text-light">¿No tienes cuenta?</p>
-            <a href="Registrarse.html" class="text-light font-weight-bold text-decoration-none" style="font-size: 20px;"><i class="fa-solid fa-user-plus"></i> Registrate - Haz click
+            <a href="{{url('Registro')}}" class="text-light font-weight-bold text-decoration-none" style="font-size: 20px;"><i class="fa-solid fa-user-plus"></i> Registrate - Haz click
               aqui</a>
           </div>
       </div>
