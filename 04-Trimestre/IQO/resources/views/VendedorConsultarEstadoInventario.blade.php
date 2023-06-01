@@ -19,17 +19,17 @@
     
         <div id="mySidenav" class="sidenav">
             <i class="fa fa-address-card-o icons"></i><b></b>VENDEDOR</b></a>
-          <a href="vendregconsul.html"class="icon-a"><i class="fa fa-users icons"></i> Registrar y Consultar Clientes</a>
-          <a href="venderegventa.html"class="icon-a"><i class="fa fa-shopping-bag icons"></i>Registrar Ventas</a>
-          <a href="vendproductos.html"class="icon-a"><i class="fa fa-list icons"></i> Consultar Productos Vendidos</a>
-          <a href="Vendcompago.html"class="icon-a"><i class="fa fa-tasks icons"></i> Adjuntar Comprobante de Pago</a>
-          <a href="vendconsulven.html"class="icon-a"><i class="fa fa-list-alt icons"></i> Consultar Ventas</a>
-          <a href="vencreaordenepedi.html"class="icon-a"><i class="fa fa-user icons"></i> Crear Ordenes de Pedido</a>
-          <a href="vendconsulordeped.html"class="icon-a"><i class="fa fa-list-alt icons"></i> Consultar Ordenes de Pedido</a>
-          <a href="consuProdInvent.html"class="icon-a"><i class="fa fa-suitcase icons"></i> Consultar Productos Registrados</a>
-          <a href="ConsultEstadoInvent.html"class="icon-a"><i class="fa fa-unlock icons"></i> Consultar Estado de Productos</a>
-          <a href="rol.html">Volver a Roles</a>
-          <a href="index (1).html">Cerrar Sesion</a>
+          <a href="{{url('VendedorRegistroConsultaClientes')}}  "class="icon-a"><i class="fa fa-users icons"></i> Registrar y Consultar Clientes</a>
+          <a href="{{url('VendedorRegistrarVentas')}}"class="icon-a"><i class="fa fa-shopping-bag icons"></i>Registrar Ventas</a>
+          <a href="{{url('VendedorConsultarProductosVendidos')}}"class="icon-a"><i class="fa fa-list icons"></i> Consultar Productos Vendidos</a>
+          <a href="{{url('VendedorPagos ')}}"class="icon-a"><i class="fa fa-tasks icons"></i> Adjuntar Comprobante de Pago</a>
+          <a href="{{url('VendedorConsultarVentas')}}"class="icon-a"><i class="fa fa-list-alt icons"></i> Consultar Ventas</a>
+          <a href="{{url('VendedorCreaOrdenesPedido')}}"class="icon-a"><i class="fa fa-user icons"></i> Crear Ordenes de Pedido</a>
+          <a href="{{url('VendedorConsultarOrdenPedido')}}"class="icon-a"><i class="fa fa-list-alt icons"></i> Consultar Ordenes de Pedido</a>
+          <a href="{{url('VendedorConsultarProductosVendidos')}}"class="icon-a"><i class="fa fa-suitcase icons"></i> Consultar Productos Registrados</a>
+          <a href="{{url('VendedorConsultarEstadoInventario')}} "class="icon-a"><i class="fa fa-unlock icons"></i> Consultar Estado de Productos</a>
+          <a href="{{ url('/Roles')}}">Volver a Roles</a>
+          <a href="{{ url('/login')}}">Cerrar Sesion</a>
         </div>
         <form>
             <legend><b>CONSULTAR ESTADO DE PRODUCTOS</b></legend><br>
