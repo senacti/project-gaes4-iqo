@@ -32,7 +32,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index (1).html" style="font-size: 18px;">
+              <a class="nav-link active" aria-current="page" href="{{ url('login')}}" style="font-size: 18px;">
                 <i class="fas fa-user fa-lg"></i>Iniciar Sesión</a>
             </li>
             <li class="nav-item">
@@ -121,7 +121,8 @@
             <h1 class="font-weight-bold mb-4 text-center text-light" style="font-size: 50px;">
               Bienvenido a CONTROL & SEGURIDAD S.A.S
             </h1>
-            <form action="rol.html" class="mb-5 row mt-3 g-3 needs-validation" novalidate>
+            <form action="{{ url('Roles') }}" class="mb-5 row mt-3 g-3 needs-validation" novalidate>
+
               <div class="mb-4 position-relative">
                 <label for="exampleInputEmail1" class="form-label font-weight-bold form-text text-light" style="font-size: 20px;">
                     <i class="fa-light fa-square-envelope fa-lg"></i> Correo Electrónico</label>
@@ -147,7 +148,7 @@
                 </div>
                 <a href="#" id="emailHelp" class="form-text text-muted text-decoration-none">¿Olvidaste tu contraseña?</a>
               </div>
-              <button type="submit" class="btn btn-primary w-100" style="font-size: 20px;"><i class="fa-regular fa-right-to-bracket fa-lg"></i> Iniciar Sesion</button>
+              <button type="submit" class="btn btn-primary w-100" style="font-size: 20px;"><i class="fa-regular fa-right-to-bracket fa-lg" href="{{url('Roles')}}"></i> Iniciar Sesion</button>
             </form>
   
             <p class="font-weight-bold text-center text-muted">Iniciar Sesión con</p>
