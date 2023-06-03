@@ -45,6 +45,10 @@ Route::get('/AdminRegistroConsultaPagos', function () {
     return view('AdminRegistroConsultaPagos');
 });
 
+Route::get('/AdminRegistroOrdenesCompra', function () {
+    return view('AdminRegistroOrdenesCompra');
+});
+
 Route::get('/AdminRegistroProductos', function () {
     return view('AdminRegistroProductos');
 });
