@@ -59,33 +59,33 @@
 </div>
 <section class="products-list">
     <div class="product-item" category="monitores">
-        <img src="images/Imagencamara.png" alt="">
+        <img src="{{asset ('images/Imagencamara.png')}}" alt="">
         <a href="#">camara-Ref 001<br>20 unidades</a>
         $50.000
 
     </div>
     <div class="product-item" category="audifonos">
-        <img src="images/ImagenDVR.png" alt="">
+        <img src="{{asset('images/ImagenDVR.png')}}" alt="">
         <a href="#">DVR-Ref 002<br>2 unidades</a>
         $150.000
     </div>
     <div class="product-item" category="smartphones">
-        <img src="images/ImagenDiscoDuro.png" alt="">
+        <img src="{{asset('images/ImagenDiscoDuro.png')}}" alt="">
         <a href="#">Disco Duro-Ref 003<br>10 unidades</a>
         $200.000
     </div>
     <div class="product-item" category="smartphones">
-        <img src="images/Imagenups.png" alt="">
+        <img src="{{asset('images/Imagenups.png')}}" alt="">
         <a href="#">UPS-Ref 004 <br>3 unidades</a>
         $200.000
     </div>
     <div class="product-item" category="ordenadores">
-        <img src="images/ImagenFuentes.png" alt="">
+        <img src="{{asset('images/ImagenFuentes.png')}}" alt="">
         <a href="#">Fuentes-Ref-005<br>2 unidades</a>
         $50.000
     </div>
     <div class="product-item" category="ordenadores">
-        <img src="images/Imagencamarawifi.png" alt="">
+        <img src="{{asset('images/Imagencamarawifi.png')}}" alt="">
         <a href="#">Camara Wifi Ref-006 <br>5 unidades</a>
         $80.000
     </div>

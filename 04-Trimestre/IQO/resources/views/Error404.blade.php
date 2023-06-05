@@ -6,25 +6,23 @@
     <meta  http-equiv =" X-UA-Compatible " content =" IE=edge " >
     <meta  name =" viewport " content =" ancho=ancho-del-dispositivo, escala-inicial=1.0 " >
     <title>IQO</title>
-    <link rel="icon" type="image/png" href="images/logoIQO.png">
+    <link rel="icon" type="image/png" href="{{ asset('images/logoIQO.png') }}">
     <título><h1>ERROR 404</h1> </título >
-    <enlace  rel =" hoja de estilo " href =" css/estilos.css " >
+    <enlace  rel =" hoja de estilo " href ="{{asset('css/estilos.css')}} " >
     <enlace  rel =" preconexión " href =" https://fonts.googleapis.com " >
     <enlace  rel =" preconexión " href =" https://fonts.gstatic.com " crossorigin >
     <ink  href =" https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap " rel =" hoja de estilo " >
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
-
-          
-            <link rel="stylesheet" href="css/bootstrap.min.css">
-          <link rel="icon" type="image/png" href="images/logoIQO.png">
+             <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+             <link rel="icon" type="image/png" href="{{ asset('images/logoIQO.png') }}">
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
           <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;500&display=swap" rel="stylesheet">
           <script src="js/bootstrap.bundle.min.js FINAL.js"></script>
-          <link rel="stylesheet" href="style.css" />
+          <link rel="stylesheet" href="{{asset('style.css')}}" />
 
     </head >
 
@@ -71,10 +69,10 @@
       </div>
     </nav>
     <div  clase =" contenedor " >
-        <img  src =" img/img1.svg " alt ="" >
+        <img  src ="{{asset('img/img1.svg')}}  " alt ="" >
         <h1 > La página que ha solicitado no se encuentra disponible </ h1 >
         <div  clase =" boton " >
-            <a href="index (1).html">Volver Atras</a>
+            <a href="{{url('/login')}}">Volver Atras</a>
         </div> 
     </div> 
 

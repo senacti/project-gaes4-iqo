@@ -12,21 +12,18 @@
 
     <body>
         <div class="logo">
-            <img src="logo/logoIQO.png" alt="logo">
+            <img src="{{asset('logo/logoIQO.png')}}" alt="logo">
                         <h1><center>INVENTORIES AND QUICK ORGANIZATION</center></h1>
     
         <div id="mySidenav" class="sidenav">
-          
-          <a href="#"class="icon-a"><i class="fa fa-users icons"></i> Registrar Clientes</a>
-          <a href="#" class="icon-a"><i class="fa fa-dashboard icons"></i> Consultar Clientes</a>
-          {{-- revisar dos arriba --}}
-           {{-- no entiendo lo de abajo --}}
-          <a href="vendedor2.html"class="icon-a"><i class="fa fa-shopping-bag icons"></i>Registrar Ventas</a>
-          <a href="#"class="icon-a"><i class="fa fa-list icons"></i> Consultar Productos Vendidos</a>
-          <a href="#"class="icon-a"><i class="fa fa-tasks icons"></i> Adjuntar Comprobante de Pago</a>
-          <a href="#"class="icon-a"><i class="fa fa-list-alt icons"></i> Consultar Ventas</a>
-          <a href="#"class="icon-a"><i class="fa fa-user icons"></i> Crear Ordenes de Pedido</a>
-          <a href="#"class="icon-a"><i class="fa fa-list-alt icons"></i> Consultar Ordenes de Pedido</a>
+          <a href="{{url('/Registro')}}"class="icon-a"><i class="fa fa-users icons"></i> Registrar Clientes</a>
+          <a href="{{url('/Cliente')}}" class="icon-a"><i class="fa fa-dashboard icons"></i> Consultar Clientes</a>
+          <a href="{{url('/VendedorRegistrarVenta')}}"class="icon-a"><i class="fa fa-shopping-bag icons"></i>Registrar Ventas</a>
+          <a href="{{url('/VendedorConsultarProductosVendidos')}}"class="icon-a"><i class="fa fa-list icons"></i> Consultar Productos Vendidos</a>
+          <a href="{{url('/AdminRegistroConsultaPagos')}}"class="icon-a"><i class="fa fa-tasks icons"></i> Adjuntar Comprobante de Pago</a>
+          <a href="{{url('/AdminGerenteConsultarVentas')}}"class="icon-a"><i class="fa fa-list-alt icons"></i> Consultar Ventas</a>
+          <a href="{{url('/ClienteCreaOrdenPedido')}}"class="icon-a"><i class="fa fa-user icons"></i> Crear Ordenes de Pedido</a>
+          <a href="{{url('ClienteConsultarOrdenPedido')}}"class="icon-a"><i class="fa fa-list-alt icons"></i> Consultar Ordenes de Pedido</a>
           <a href="{{ url('/Roles')}}">Volver a Roles</a>
           <a href="{{ url('/login')}}">Cerrar Sesion</a>
         </div>

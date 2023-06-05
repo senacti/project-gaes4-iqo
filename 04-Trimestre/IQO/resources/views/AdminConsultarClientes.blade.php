@@ -13,7 +13,7 @@
 
 <body>
     <div class="logo">
-        <img src="images/logoIQO.png" alt="logo">
+        <img src="{{ asset ('images/logoIQO.png')}}" alt="logo">
         <h1>
             <center>INVENTORIES AND QUICK ORGANIZATION</center>
         </h1>

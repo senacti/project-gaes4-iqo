@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  //ok 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IQO</title>
     <link rel="icon" type="image/png" href="{{ asset('images/logoIQO.png') }}">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-     <link rel="stylesheet" href="css/StyleIndex.css" />
+     <link rel="stylesheet" href="{{asset('css/StyleIndex.css')}}" />
      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" integrity="tu-integridad" crossorigin="anonymous" />
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-***********" crossorigin="anonymous" />
      <style>
@@ -62,7 +61,7 @@
       </div>
     </nav>
     <div class="contenedor">
-        <form action="registrarsevalid.html" class="form">
+        <form action="RegistroValidacion" class="form">
             <div class="form-header">
                 <h1 class="form-title"><span>Contacto</span></h1>
             </div>

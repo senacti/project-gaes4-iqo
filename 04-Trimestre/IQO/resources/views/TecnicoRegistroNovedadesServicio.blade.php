@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styleordenespedido.css">
-    <link rel="stylesheet" href="css/stylevendedor.css">
+    <link rel="stylesheet" href="{{asset('css/styleordenespedido.css')}}">
+    <link rel="stylesheet" href="{{asset('css/stylevendedor.css')}}">
     <title>IQO</title>
-    <link rel="icon" type="image/png" href="images/logoIQO.png">
+    <link rel="icon" type="image/png" href="{{asset('images/logoIQO.png')}}">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
@@ -16,17 +16,17 @@
 
     <body>
         <div class="logo">
-            <img src="logo/logoIQO.png" alt="logo"> 
+            <img src="{{asset('logo/logoIQO.png')}}" alt="logo"> 
                         <h1><center>INVENTORIES AND QUICK ORGANIZATION</center></h1>
                         
     
         <div id="mySidenav" class="sidenav">
             <i class="fa fa-address-card-o icons"></i><b></b>TECNICO</b></a>
-          <a href="TecnicoRegis.html"class="icon-a"><i class="fa fa-users icons"></i> Registrar Novedades del Servicio</a>
-          <a href="TecnicoConsul.html"class="icon-a"><i class="fa fa-shopping-bag icons"></i>Consultar Novedades</a>
-          <a href="TecnicoConsEstado.html"class="icon-a"><i class="fa fa-shopping-bag icons"></i>Consultar Estado del Servicio o Producto</a>
-          <a href="rol.html">Volver a Roles</a>
-          <a href="index (1).html">Cerrar Sesion</a>
+            <a href="{{url('/TecnicoRegistroNovedadesServicio')}}"class="icon-a"><i class="fa fa-users icons"></i> Registrar Novedades del Servicio</a>
+            <a href="{{url('/TecnicoConsultarServiciosTecnicos')}}"class="icon-a"><i class="fa fa-shopping-bag icons"></i>Consultar Novedades</a>
+            <a href="{{url('TecnicoConsultarEstadoServicio')}}"class="icon-a"><i class="fa fa-shopping-bag icons"></i>Consultar Estado del Servicio o Producto</a>
+            <a href="{{ url('/Roles')}}">Volver a Roles</a>
+            <a href="{{ url('/login')}}">Cerrar Sesion</a>
         </div>
         <b>REGISTRAR NOVEDADES DEL SERVICIO O PRODUCTO</b><br>
           
