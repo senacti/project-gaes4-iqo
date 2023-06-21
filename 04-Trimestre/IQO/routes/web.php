@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\ProductoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,6 +12,24 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+/*
+ *Rutas Controler Prodductos 
+ */
+
+//Ruta para mostrar los datos en la tabla Productos  
+Route::get("/Productos",[ProductoController::class,"index"])->name("Crud_Productos.Index");
+
+//Ruta para registrar los datos en la tabla 
+Route::post("/regisProducto",[ProductoController::class,"create"])->name("Crud_Productos.Create");
+
+//Ruta para MODIFICAR los datos en la tabla Productos
+Route::post("/modifProducto",[ProductoController::class,"update"])->name("Crud_Productos.update");
+
+//Ruta para eliminar los datos en la tabla Productos
+Route::get("/elimifProducto/{ID_PRODUCTO}", [ProductoController::class, "delete"])->name("Crud_Productos.delete");
+
+/*Rutas .Blade */
 
 Route::get('/login', function () {
     return view('login');
