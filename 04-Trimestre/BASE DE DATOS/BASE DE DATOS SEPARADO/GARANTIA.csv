@@ -1,0 +1,14 @@
+ID_GARANTIA;DESCRIPCION_GARANTIA;TIEMPO_GARANTIA;ID_TIPO_GARANTIA
+1;Garantia Camaras;30 dias;1
+2;Garantia Cables;20 dias;1
+3;instalacion camara;20 dias;2
+4;Garantia UPS;10 dias;1
+5;Garantia Fuentes;10 dias;1
+6;Garantia Disco Duro;30 dias;1
+7;Garantia Dvr;20 dias;1
+8;instalacion cables;10 dias;2
+9;instalacion UPS;20 dias;2
+10;mantenimiento camara;20 dias;2
+11;instalacion dvr;10 dias;2
+12;mantenimiento disco duro;20 dias;2
+13;instalacion fuentes;10 dias;2

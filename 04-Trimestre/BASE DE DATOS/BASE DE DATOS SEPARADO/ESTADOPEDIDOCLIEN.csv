@@ -1,0 +1,6 @@
+CODIGO_ESTADO;ESTADO_PEDIDO
+1;Completado
+2;Pendiente
+3;Enviado
+4;Recogido
+5;En Proceso

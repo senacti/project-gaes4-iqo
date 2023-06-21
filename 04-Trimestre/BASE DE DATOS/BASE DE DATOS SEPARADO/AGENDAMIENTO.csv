@@ -1,0 +1,9 @@
+ID_AGENDAMIENTO;DESCRIPC_AGENDAMIENTO;HORA_AGENDAMIENTO;FECHA_AGENDAMIENTO;ID_ESTADO_DISPONIBILIDAD;ID_EMPLEADO;ID_SERVICIO
+1;seguimiento al servicio;1:00:00 p. m.;25/01/2023;1;7;1
+2;seguimiento al servicio;2:00:00 p. m.;29/02/2023;1;25;3
+3;enviar notificacion;10:00:00 a. m.;15/03/2023;1;21;2
+4;sin observacion;9:00:00 a. m.;10/04/2023;1;8;4
+5;sin observacion;8:00:00 a. m.;1/05/2023;1;7;5
+6;trabajo terminado;1:00:00 p. m.;29/02/2024;1;8;1
+7;mantenimiento camara;2:00:00 p. m.;15/03/2023;1;26;3
+8;seguimiento al servicio;10:00:00 a. m.;10/04/2023;1;21;5

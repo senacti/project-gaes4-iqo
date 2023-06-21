@@ -1,0 +1,35 @@
+ID_PRODUCTO;NOMBRE_PRODUCTO;DESCRIPCION_PRODUCTO;REFERENCIA_PRODUCTO;VALOR_PRODUCTO;CANTIDAD_PRODUCTO;ID_MARCA
+1;CAMARA DOMO;Camara de seguridad con carcasa domo;CAM001;100.000;123;1
+2;CAMARA BULLET;Camara de seguridad con carcasa bullet;CAM002;200000;52;2
+3;CAMARA PTZ;Camara de seguridad con movimiento PTZ;CAM003;50000;15;3
+4;CAMARA IP;Camara de seguridad con conexion IP;CAM004;60000;263;4
+5;CAMARA OCULTA;Camara de seguridad oculta;CAM005;30000;25;5
+6;KIT DE CAMARAS;Kit de 4 camaras de seguridad;KIT001;40000;62;6
+7;CAMARA PANORAMICA;Camara de seguridad panoramica;CAM006;80000;35;7
+8;CAMARA INALAMBRICA;Camara de seguridad con conexion inalambrica;CAM007;90000;369;8
+9;CAMARA DE INTERIOR;Camara de seguridad para interiores;CAM008;200000;52;9
+10;CAMARA DE EXTERIOR;Camara de seguridad para exteriores;CAM009;30000;62;10
+11;CAMARA CON AUDIO;Camara de seguridad con audio bidireccional;CAM010;2000;15;11
+12;CAMARA DE 360 GRADOS;Camara de seguridad de 360 grados;CAM011;30000;26;1
+13;CAMARA DE VIGILANCIA;Camara de seguridad para vigilancia;CAM012;1000;52;2
+14;CAMARA CON ZOOM;Camara de seguridad con zoom;CAM013;52000;5;3
+15;CAMARA CON SENSOR DE MOVIMIENTO;Camara de seguridad con sensor de movimiento;CAM014;5000;41;4
+16;CAMARA DE LARGA DISTANCIA;Camara de seguridad de larga distancia;CAM015;4000;25;5
+17;CAMARA CON VISION NOCTURNA;Camara de seguridad con vision nocturna;CAM016;22000;26;6
+18;CAMARA DE RECONOCIMIENTO FACIAL;Camara de seguridad de reconocimiento facial;CAM017;2000;226;7
+19;CAMARA CON DETECCION DE HUMO;Camara de seguridad con deteccion de humo;CAM018;10000;52;2
+20;CAMARA CON ALARMA INCORPORADA;Camara de seguridad con alarma incorporada;CAM019;100000;65;3
+21;CAMARA CON GRABACION EN LA NUBE;Camara de seguridad con grabacion en la Nube;CAM020;45000;26;4
+22;CAMARA BALA;Camara de vigilancia bala con resolucion 1080p;CAM021;820000;52;5
+23;CAMARA ESPIA;Camara de vigilancia espia en cargador USB;CAM022;5000;64;4
+24;CAMARA HD;Camara de vigilancia HD con resolucion 720p;CAM023;51000;5;5
+25;CAMARA IP WIFI;Camara de seguridad IP inalambrica para interior y exterior, resolucion Full HD;CAM024;410000;21;6
+26;CABLE COAXIAL;Cable para instalacion de camaras de seguridad, alta calidad y baja interferencia;CABLECOAX;410100;6512;5
+27;CABLE UTP;Cable para instalacion de camaras de seguridad, alta calidad y bajo ruido;CABLEUTP;81000;62;4
+28;DISCO DURO PARA CCTV;Disco duro optimizado para sistemas de seguridad CCTV, capacidad 1TB;DDCCTV;90000;265;5
+29;DVR DE 16 CANALES;Grabador digital de video con capacidad para 16 camaras de seguridad;DVR16C;5000;26;11
+30;CONTROL REMOTO PARA ALARMA;Control remoto para activar o desactivar alarma de seguridad;CONTROLREM;11000;22;2
+31;SENSOR DE HUMO;Sensor de humo para alarmas de seguridad, alcance de 9 metros;SENHUM;45000;651;3
+32;LLAVE ELECTRONICA;Llave electronica para control de acceso a edificios y empresas;LLAVEELC;41000;52;4
+33;ADAPTADORES DE SEGURIDAD;Adaptador para seguridad;ADAPSEG;10000;2;4
+34;WAREHOUSE RACK;Ayuda a la seguridad;RACKWARE;20000;3;6
