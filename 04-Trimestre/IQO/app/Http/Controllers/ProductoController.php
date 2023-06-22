@@ -1,10 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Barryvdh\DomPDF\Facade\Pdf;
 use App\Models\Producto;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+
 class ProductoController extends Controller
 {
     /**
@@ -15,6 +16,21 @@ class ProductoController extends Controller
         $datos=DB::select("select * from producto");
         return view("Productos")->with("datos",$datos);
     }
+
+    public function pdf()
+{
+
+    $productos =DB::select("select * from producto");
+
+   $pdf = PDF::loadView('pdf', compact('productos'));
+return $pdf->stream();
+
+
+
+    
+    
+}
+
 
     /** CREAR */
     public function create(Request $request)
@@ -70,6 +86,7 @@ class ProductoController extends Controller
         return back()->with("incorrecto", "Error al modificar el producto");
     }
 }
+
 
 
     /**
