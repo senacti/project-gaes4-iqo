@@ -17,6 +17,8 @@ use Illuminate\Support\Facades\Route;
  *Rutas Controler Prodductos 
  */
 
+ // reporte crud producto
+Route::get("/pdf",[ProductoController::class,"pdf"])->name("productos.pdf");
 //Ruta para mostrar los datos en la tabla Productos  
 Route::get("/Productos",[ProductoController::class,"index"])->name("Crud_Productos.Index");
 
@@ -28,6 +30,8 @@ Route::post("/modifProducto",[ProductoController::class,"update"])->name("Crud_P
 
 //Ruta para eliminar los datos en la tabla Productos
 Route::get("/elimifProducto/{ID_PRODUCTO}", [ProductoController::class, "delete"])->name("Crud_Productos.delete");
+
+
 
 /*Rutas .Blade */
 
