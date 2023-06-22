@@ -32,10 +32,10 @@
     };
     </script>
 
-   
+
    
    <button class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#modalRegistrar">Añadir Producto</button>
-
+   <a href="{{url('/pdf')}}" class="btn btn-success" target="blank">PDF</a>
 
 
          <table class="table table-striped table-bordered table-hover">
