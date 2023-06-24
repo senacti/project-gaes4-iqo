@@ -31,7 +31,9 @@ Route::post("/modifProducto",[ProductoController::class,"update"])->name("Crud_P
 //Ruta para eliminar los datos en la tabla Productos
 Route::get("/elimifProducto/{ID_PRODUCTO}", [ProductoController::class, "delete"])->name("Crud_Productos.delete");
 
-
+Route::get('/', function () {
+    return view('welcome');
+});
 
 /*Rutas .Blade */
 
@@ -206,3 +208,6 @@ Route::get('/VendedorRegistrarVentas', function () {
 Route::get('/VendedorRegistroConsultaClientes', function () {
     return view('VendedorRegistroConsultaClientes');
 });
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
