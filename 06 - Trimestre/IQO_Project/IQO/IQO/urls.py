@@ -23,7 +23,7 @@ app_name = 'administrador'
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('login/', views.login, name='login'),
+    path('', views.login, name='login'),
     path('quienessomos/' , views.quienessomos_view, name='quienessomos'),
     path('camaras/' , views.camaras_view, name='camaras'),
     path('discos/' , views.discos_view, name='discos'),
