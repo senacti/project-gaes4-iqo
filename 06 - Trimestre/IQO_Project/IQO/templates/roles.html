@@ -21,22 +21,18 @@
 </head>
 <body class="bg-dark">
 
-<nav class="navbar navbar-expand-lg navbar navbar-light rounded sticky-top" style="background-color: #e3f2fd;">
+  <nav class="navbar navbar-expand-lg navbar navbar-light rounded sticky-top" style="background-color: #e3f2fd;">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{% url 'login' %}">
+        <a class="navbar-brand" href="{% url 'index' %}">
             <img src="{% static 'images/logoIQO.png' %}" alt="logoRTC" width="150px">
-        </a>
-      
+      </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="{% url 'login' %}" style="phudu: 18px;">
-                <i class="fas fa-user fa-lg"></i>Iniciar Sesión</a>
-            </li>
+            
             <li class="nav-item">
               <a class="nav-link" href="{% url 'quienessomos' %}" style="font-size: 18px;">
                 <i class="fa-solid fa-cloud-question fa-lg"></i>¿Quienes Somos?</a>
@@ -60,11 +56,14 @@
             <li class="nav-item">
                 <a class="nav-link" href="{% url 'roles' %}" style="font-size: 18px;"><i
                         class="fas fa-user fa-lg"></i> Roles</a>
-            </li>             
+            </li>
+     
           </ul>
           <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" Required>
-            <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+         
+                <a class="nav-link active" aria-current="page" href="{% url 'login' %}" >
+                  <i class="fas fa-user fa-lg"></i>Iniciar Sesión</a>
+              </li>
           </form>
         </div>
       </div>
