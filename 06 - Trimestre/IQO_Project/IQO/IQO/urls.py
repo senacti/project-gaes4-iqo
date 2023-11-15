@@ -22,8 +22,9 @@ app_name = 'roles'
 app_name = 'administrador'
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', views.login, name='login'),
+    path('admin/', admin.site.urls, name='admin:index'),
+    path('', views.index, name='index'),
+    path('login/', views.login_view, name='login'),
     path('quienessomos/' , views.quienessomos_view, name='quienessomos'),
     path('camaras/' , views.camaras_view, name='camaras'),
     path('discos/' , views.discos_view, name='discos'),
