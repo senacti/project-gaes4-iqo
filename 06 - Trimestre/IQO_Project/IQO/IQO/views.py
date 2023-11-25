@@ -5,6 +5,7 @@ from django.shortcuts import redirect
 from django.contrib.auth import logout
 from django.contrib import messages
 
+
 def index(request):
     return render(request, 'index.html',{
         #context
@@ -26,6 +27,10 @@ def login_view(request):
     return render(request, 'login.html',{
 
     })
+def logout_view(request):
+    logout(request)
+    messages.success(request, 'Sesión finalizada')
+    return redirect('login')
 
 def quienessomos_view(request):
     return render(request, 'quienessomos.html',{
