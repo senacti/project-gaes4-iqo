@@ -16,7 +16,7 @@ MYSQL = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'dbiqo',
         'USER': 'root',
-        'PASSWORD': 'Trinity433*',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '3306',
 				
