@@ -11,17 +11,17 @@ SQLITE = {
 
 
 
-MYSQL = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dbiqo',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306',
+#MYSQL = {
+ #   'default': {
+  #      'ENGINE': 'django.db.backends.mysql',
+   #     'NAME': 'dbiqo',
+    #    'USER': 'root',
+     #   'PASSWORD': '',
+      #  'HOST': 'localhost',
+       # 'PORT': '3306',
 				
-    }
-}
+    #}
+#}
 
 #POSTGRESQL = {
 #    'default': {

@@ -59,7 +59,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'alifut.urls'
+ROOT_URLCONF = 'IQO.urls'
 
 TEMPLATES = [
     {
@@ -77,13 +77,13 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'alifut.wsgi.application'
+WSGI_APPLICATION = 'IQO.wsgi.application'
 
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = db.MYSQL
+DATABASES = db.SQLITE
 
 
 # Password validation
