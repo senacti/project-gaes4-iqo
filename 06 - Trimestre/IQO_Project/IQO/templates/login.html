@@ -24,7 +24,7 @@
 <nav class="navbar navbar-expand-lg navbar navbar-light rounded sticky-top" style="background-color: #e3f2fd;">
     <div class="container-fluid">
       <a class="navbar-brand" href="{% url 'index' %}">
-        <img src="{% static 'images/logoIQO.png' %}" alt="logoRTC" width="150px">
+        <img src="{% static 'images/logoIQO.png' %}" alt="logoRTC" width="100px">
   </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,13 +32,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="{% url 'login' %}" style="phudu: 18px;">
-                <i class="fas fa-user fa-lg"></i>Iniciar Sesión</a>
-            </li>
+
             <li class="nav-item">
               <a class="nav-link" href="{% url 'quienessomos' %}" style="font-size: 18px;">
-                <i class="fa-solid fa-cloud-question fa-lg"></i>¿Quienes Somos?</a>
+                <i class="fa-solid fa-cloud-question fa-lg"></i>Contáctenos</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -52,15 +49,18 @@
                     <li><a class="dropdown-item" href="{% url 'fuentes' %}">Fuentes</a></li>
                 </ul>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{% url 'contacto' %}" style="font-size: 18px;"><i
-                        class="fa-solid fa-headset fa-lg"></i> Contacto</a>
-            </li>
+           
             <li class="nav-item">
                 <a class="nav-link" href="{% url 'roles' %}" style="font-size: 18px;"><i
                         class="fas fa-user fa-lg"></i> Roles</a>
             </li>          
           </ul>
+          <form class="d-flex">
+         
+            <a class="nav-link active" aria-current="page" href="{% url 'login' %}" >
+              <i class="fas fa-user fa-lg"></i>Iniciar Sesión</a>
+          </li>
+      </form>
          
         </div>
       </div>
@@ -88,19 +88,19 @@
               </div>
               <div class="carousel-item img2 min-vh-100">
                 <img src="{% static 'images/mara2.jpg' %}" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block"><h5 class="font-weight-bold text-light">Seguridad Para tu Hogar o Empresa</h5>
+                <div class="carousel-caption d-none d-md-block"><h5 class="font-weight-bold text-light">México, Estados Unidos y Cánada</h5>
                   
                 </div>
               </div>
               <div class="carousel-item img3 min-vh-100">
                 <img src="{% static 'images/mara3.jpg' %}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 class="font-weight-bold text-light">Acércate a nuestra Tienda</h5>
+                  <h5 class="font-weight-bold text-light">Inicia Sesión</h5>
                 </div>
               </div>
               <div class="carousel-item img4 min-vh-100">
                 <img src="{% static 'images/mara9.jpg' %}" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block"><h5 class="font-weight-bold text-light">Seguridad Para tu Hogar o Empresa</h5>
+                <div class="carousel-caption d-none d-md-block"><h5 class="font-weight-bold text-light">Conoce acerca de la FIFA26</h5>
                  
                 </div>
               </div>
@@ -119,7 +119,7 @@
         </div>
         <div class="col-lg-5 d-flex flex-column  min-vh-100 image-center">
             <div class="px-lg-3 pt-lg-2 pb-lg-1 p-1 w-100">
-                <img src="{% static 'logo/logoempresa (1).png' %}" class="img-fluid" width="150px">
+                <img src="{% static 'logo/logoempresa (1).png' %}" width="90px">
               </div>
           <div class="px-lg-5 py-lg-4 p-4">
             <h1 class="font-weight-bold mb-4 text-center text-light" style="font-size: 50px;">

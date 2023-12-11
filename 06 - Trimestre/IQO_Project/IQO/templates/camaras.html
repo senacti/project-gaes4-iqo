@@ -24,7 +24,7 @@
 	<nav class="navbar navbar-expand-lg navbar navbar-light rounded sticky-top" style="background-color: #e3f2fd;">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="{% url 'index' %}">
-				<img src="{% static 'images/logoIQO.png' %}" alt="logoRTC" width="150px">
+				<img src="{% static 'images/logoIQO.png' %}" alt="logoRTC" width="100px">
 		  </a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
 			  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,9 +34,9 @@
 			  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 				
 				<li class="nav-item">
-				  <a class="nav-link" href="{% url 'quienessomos' %}" style="font-size: 18px;">
-					<i class="fa-solid fa-cloud-question fa-lg"></i>¿Quienes Somos?</a>
-				</li>
+					<a class="nav-link" href="{% url 'quienessomos' %}" style="font-size: 18px;">
+					  <i class="fa-solid fa-cloud-question fa-lg"></i>Contáctenos</a>
+				  </li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 						data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 18px;"><i
@@ -49,10 +49,7 @@
 						<li><a class="dropdown-item" href="{% url 'fuentes' %}">Fuentes</a></li>
 					</ul>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="{% url 'contacto' %}" style="font-size: 18px;"><i
-							class="fa-solid fa-headset fa-lg"></i> Contacto</a>
-				</li>
+
 				<li class="nav-item">
 					<a class="nav-link" href="{% url 'roles' %}" style="font-size: 18px;"><i
 							class="fas fa-user fa-lg"></i> Roles</a>
@@ -78,7 +75,7 @@
 				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 					<div class="col">
 						<div class="card shadow-sm">
-							<img src="#" alt="">
+							<img src="{% static 'images/camara1.png' %}" alt="">
 							<div class="card-body">
 								<h5 class="card-title">Camara Domo Dahua</h5>
 								<p class="card-text">Camara tipo domo plástico full HD 1080p lente 3.6 M.M*</p>
@@ -95,7 +92,7 @@
 					</div>
 					<div class="col">
 						<div class="card shadow-sm">
-							<img src="#" alt="">
+							<img src="{% static 'images/camara2.png' %}" alt="">
 							<div class="card-body">
 								<h5 class="card-title">Camara Domo Dahua</h5>
 								<p class="card-text">Camara tipo domo plástico full HD 1080p lente 3.6 M.M*</p>
@@ -112,59 +109,7 @@
 					</div>
 					<div class="col">
 						<div class="card shadow-sm">
-							<img src="#" alt="">
-							<div class="card-body">
-								<h5 class="card-title">Camara Domo Dahua</h5>
-								<p class="card-text">Camara tipo domo plástico full HD 1080p lente 3.6 M.M*</p>
-								<P class="card-text">Tecnología 4 en 1 CVI/AHD/TVI/CVBS</P>
-								<P class="precio">$1000</P>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button type="button" class="btn btn-sm btn-primary">Agregar al Carrito</button>
-									</div>
-									<small class="text-muted">10 Disponibles</small>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col">
-						<div class="card shadow-sm">
-							<img src="#" alt="">
-							<div class="card-body">
-								<h5 class="card-title">Camara Domo Dahua</h5>
-								<p class="card-text">Camara tipo domo plástico full HD 1080p lente 3.6 M.M*</p>
-								<P class="card-text">Tecnología 4 en 1 CVI/AHD/TVI/CVBS</P>
-								<P class="precio">$1000</P>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button type="button" class="btn btn-sm btn-primary">Agregar al Carrito</button>
-									</div>
-									<small class="text-muted">10 Disponibles</small>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card shadow-sm">
-							<img src="#" alt="">
-							<div class="card-body">
-								<h5 class="card-title">Camara Domo Dahua</h5>
-								<p class="card-text">Camara tipo domo plástico full HD 1080p lente 3.6 M.M*</p>
-								<P class="card-text">Tecnología 4 en 1 CVI/AHD/TVI/CVBS</P>
-								<P class="precio">$1000</P>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button type="button" class="btn btn-sm btn-primary">Agregar al Carrito</button>
-									</div>
-									<small class="text-muted">10 Disponibles</small>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card shadow-sm">
-							<img src="#" alt="">
+							<img src="{% static 'images/camara3.png' %}" alt="">
 							<div class="card-body">
 								<h5 class="card-title">Camara Domo Dahua</h5>
 								<p class="card-text">Camara tipo domo plástico full HD 1080p lente 3.6 M.M*</p>
@@ -182,7 +127,7 @@
 
 					<div class="col">
 						<div class="card shadow-sm">
-							<img src="#" alt="">
+							<img src="{% static 'images/camara4.png' %}" alt="">
 							<div class="card-body">
 								<h5 class="card-title">Camara Domo Dahua</h5>
 								<p class="card-text">Camara tipo domo plástico full HD 1080p lente 3.6 M.M*</p>
@@ -199,7 +144,7 @@
 					</div>
 					<div class="col">
 						<div class="card shadow-sm">
-							<img src="#" alt="">
+							<img src="{% static 'images/camara5.png' %}" alt="">
 							<div class="card-body">
 								<h5 class="card-title">Camara Domo Dahua</h5>
 								<p class="card-text">Camara tipo domo plástico full HD 1080p lente 3.6 M.M*</p>
@@ -216,7 +161,59 @@
 					</div>
 					<div class="col">
 						<div class="card shadow-sm">
-							<img src="#" alt="">
+							<img src="{% static 'images/camara6.png' %}" alt="">
+							<div class="card-body">
+								<h5 class="card-title">Camara Domo Dahua</h5>
+								<p class="card-text">Camara tipo domo plástico full HD 1080p lente 3.6 M.M*</p>
+								<P class="card-text">Tecnología 4 en 1 CVI/AHD/TVI/CVBS</P>
+								<P class="precio">$1000</P>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button type="button" class="btn btn-sm btn-primary">Agregar al Carrito</button>
+									</div>
+									<small class="text-muted">10 Disponibles</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="card shadow-sm">
+							<img src="{% static 'images/camara7.png' %}" alt="">
+							<div class="card-body">
+								<h5 class="card-title">Camara Domo Dahua</h5>
+								<p class="card-text">Camara tipo domo plástico full HD 1080p lente 3.6 M.M*</p>
+								<P class="card-text">Tecnología 4 en 1 CVI/AHD/TVI/CVBS</P>
+								<P class="precio">$1000</P>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button type="button" class="btn btn-sm btn-primary">Agregar al Carrito</button>
+									</div>
+									<small class="text-muted">10 Disponibles</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow-sm">
+							<img src="{% static 'images/camara8.png' %}" alt="">
+							<div class="card-body">
+								<h5 class="card-title">Camara Domo Dahua</h5>
+								<p class="card-text">Camara tipo domo plástico full HD 1080p lente 3.6 M.M*</p>
+								<P class="card-text">Tecnología 4 en 1 CVI/AHD/TVI/CVBS</P>
+								<P class="precio">$1000</P>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button type="button" class="btn btn-sm btn-primary">Agregar al Carrito</button>
+									</div>
+									<small class="text-muted">10 Disponibles</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow-sm">
+							<img src="{% static 'images/camara9.png' %}" alt="">
 							<div class="card-body">
 								<h5 class="card-title">DVR</h5>
 								<p class="card-text">Camara tipo domo plástico full HD 1080p lente 3.6 M.M*</p>

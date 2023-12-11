@@ -24,7 +24,7 @@
   <nav class="navbar navbar-expand-lg navbar navbar-light rounded sticky-top" style="background-color: #e3f2fd;">
     <div class="container-fluid">
         <a class="navbar-brand" href="{% url 'index' %}">
-            <img src="{% static 'images/logoIQO.png' %}" alt="logoRTC" width="150px">
+            <img src="{% static 'images/logoIQO.png' %}" alt="logoRTC" width="100px">
       </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,7 @@
             
             <li class="nav-item">
               <a class="nav-link" href="{% url 'quienessomos' %}" style="font-size: 18px;">
-                <i class="fa-solid fa-cloud-question fa-lg"></i>¿Quienes Somos?</a>
+                <i class="fa-solid fa-cloud-question fa-lg"></i>Contáctenos</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -49,10 +49,7 @@
                     <li><a class="dropdown-item" href="{% url 'fuentes' %}">Fuentes</a></li>
                 </ul>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{% url 'contacto' %}" style="font-size: 18px;"><i
-                        class="fa-solid fa-headset fa-lg"></i> Contacto</a>
-            </li>
+           
             <li class="nav-item">
                 <a class="nav-link" href="{% url 'roles' %}" style="font-size: 18px;"><i
                         class="fas fa-user fa-lg"></i> Roles</a>

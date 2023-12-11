@@ -16,7 +16,7 @@
 	<!------ Include the above in your HEAD tag ---------->
 	<style>
 		body {
-            background: linear-gradient(to left, #3931af, #ffffff);
+			background: linear-gradient(to left, #3931af, #ffffff);
             background-image: url('/static/images/fondo1.jpg');
             background-size: cover;
             background-position: center;
@@ -154,7 +154,7 @@
 
 
 				<h3>Bienvenidos</h3>
-				<p>Aquí puedes comprar productos de calidad de seguridad para tu hogar, empresa, etc...</p>
+				<p>Registrate</p>
 				<a href="{% url 'login' %}" class="btn btn-primary">
 					<i class="fa-regular fa-right-to-bracket fa-lg"></i> Iniciar Sesión
 				</a><br />
@@ -180,6 +180,7 @@
 						<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 							<h3 class="register-heading">Registro</h3>
 							<form action="" method="post">
+								{% csrf_token %}
 								<div class="row register-form">
 									<!--<div if=${param.exito} class="col-md-12">
 										<div class="alert alert-success">
@@ -188,68 +189,84 @@
 									</div>-->
 									<div class="col-md-6">
 										<div class="form-group">
-											<input placeholder="Primer Nombre" id="name" type="text" class="form-control" name="name" required autocomplete="name" autofocus pattern="[^\s]+" >
+											{{ form.username.label_tag }}
+											<input id="username" type="text" class="form-control" name="username" 
+												   placeholder="Primer Nombre" required 
+												   autocomplete="username" autofocus pattern="[^\s]+">
+											{# Puedes añadir aquí cualquier HTML adicional, como mensajes de error o estilos #}
 										</div>
 										<div class="form-group">
-											<input placeholder="Segundo Nombre" id="second_name" type="text" class="form-control" name="second_name" required autocomplete="second_name" pattern="[^\s]+">
+											{{ form.second_name.label_tag }}
+											<input id="second_name" type="text" class="form-control" name="second_name" 
+												   placeholder="Segundo Nombre" autocomplete="second_name" pattern="[^\s]+">
+											{# Puedes añadir aquí cualquier HTML adicional, como mensajes de error o estilos #}
 										</div>
 										<div class="form-group">
-											<input  placeholder="Primer Apellido" id="last_name" type="text"	class="form-control" name="last_name" required autocomplete="last_name" pattern="[^\s]+">
+											{{ form.last_name.label_tag }}
+											<input id="last_name" type="text" class="form-control" name="last_name" 
+												   placeholder="Primer Apellido" required 
+												   autocomplete="last_name" pattern="[^\s]+">
+											{# Puedes añadir aquí cualquier HTML adicional, como mensajes de error o estilos #}
 										</div>
+										
 										<div class="form-group">
-											<input  placeholder="Segundo Apellido" id="second_last_name" type="text"
-												class="form-control"
-												name="second_last_name" required
-												autocomplete="second_last_name" pattern="[^\s]+">
+											{{ form.second_last_name.label_tag }}
+											<input id="second_last_name" type="text" class="form-control" name="second_last_name" 
+												   placeholder="Segundo Apellido" autocomplete="second_last_name" pattern="[^\s]+">
+											{# Puedes añadir aquí cualquier HTML adicional, como mensajes de error o estilos #}
 										</div>
+										
 										<div class="form-group">
+											{{ form.password.label_tag }}
 											<div class="input-group">
-												<input  placeholder="Contraseña" id="password" type="password"
-													class="form-control"
-													name="password" required autocomplete="new-password">
+												<input id="password" type="password" class="form-control" name="password" 
+													   placeholder="Contraseña" required autocomplete="new-password">
 												<div class="input-group-append">
-													<button class="btn btn-outline-secondary reveal-password"
-														type="button"><i class="fas fa-eye">Ver</i></button>
+													<button class="btn btn-outline-secondary reveal-password" type="button">
+														<i class="fas fa-eye">Ver</i>
+													</button>
 												</div>
 											</div>
 											<span id="spancontrasena1" style="color:red;"></span>
+											{# Puedes añadir aquí cualquier HTML adicional, como mensajes de error o estilos #}
 										</div>
+										
 										<div class="form-group">
+											{{ form.password2.label_tag }}
 											<div class="input-group">
-												<input placeholder="Confirma Contraseña" id="password-confirm" 
-													type="password" class="form-control" name="password_confirmation"
-													required autocomplete="new-password">
-													
+												<input id="password2" type="password" class="form-control" name="password2" 
+													   placeholder="Confirma Contraseña" required autocomplete="password2">
 											</div>
 											<span id="spancontrasena" style="color:red;"></span>
+											{# Puedes añadir aquí cualquier HTML adicional, como mensajes de error o estilos #}
 										</div>
-
-										<div class="form-group">
-											<div class="maxl">
-												<label class="radio inline">
-													<input type="radio" name="gender" value="male" checked>
-													<span> Cliente Natural</span>
-												</label>
-												<label class="radio inline">
-													<input type="radio" name="gender" value="female">
-													<span>Cliente Empresa</span>
-												</label>
-											</div>
-										</div>
+										
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
-											<input  placeholder="Correo Electrónico" id="email" type="email"
-												class="form-control" name="email"
-												required autocomplete="email">
+											{{ form.email.label_tag }}
+											<div class="input-group">
+												<input id="email" type="email" class="form-control" name="email" 
+													   placeholder="Correo Electrónico" required autocomplete="email">
+											</div>
+											{# Puedes añadir aquí cualquier HTML adicional, como mensajes de error o estilos #}
+										</div>
+										
+										<div class="form-group">
+											{{ form.phone.label_tag }}
+											<div class="input-group">
+												<input id="phone" type="text" class="form-control" name="telefono" 
+													   placeholder="Teléfono" minlength="10" maxlength="10" required>
+											</div>
+											{# Puedes añadir aquí cualquier HTML adicional, como mensajes de error o estilos #}
 										</div>
 										<div class="form-group">
-											<input  placeholder="Teléfono" type="text" minlength="10" maxlength="10"
-												name="phone" class="form-control" required />
+											<button type="submit" class="btn btn-primary" id="registrar">Registrarse</button>
 										</div>
-										<button type="submit" class="btn btn-primary" id="registrar">Registro</button>
+										
+										<!-- Agrega más campos según sea necesario -->
 									</div>
-								</div>
+								</div>									
 							</form>
 						</div>
 					</div>
