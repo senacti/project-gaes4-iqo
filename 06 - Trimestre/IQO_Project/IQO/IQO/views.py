@@ -4,15 +4,17 @@ from django.contrib.auth import authenticate
 from django.shortcuts import redirect
 from django.contrib.auth import logout
 from django.contrib import messages
+from django.core.mail import EmailMessage
+from django.template.loader import render_to_string
+from django.conf import settings
+import os
 
 
 def index(request):
-    return render(request, 'index.html',{
+    return render (request, 'index.html',{
         #context
     })
     
-
-
 def login_view(request):
     if request.method == 'POST':
         username = request.POST.get('username')
@@ -20,23 +22,59 @@ def login_view(request):
         user = authenticate(username=username, password=password)
         if user:
             login(request, user)
-            messages.success(request, 'Bienvenido {}'.format(user.username))
-            return redirect('admin:index')
-        else: 
-            messages.error(request, 'Usuario o contraseña incorrectos')
-    return render(request, 'login.html',{
-
+            messages.success(request, 'Bienvenido {}' .format(user.username))
+            return redirect ('admin:index')
+        else :
+            messages.error(request, "Usuario o contraseña incorrectos")
+    return render(request, "login.html",{
+        
     })
+    
 def logout_view(request):
     logout(request)
     messages.success(request, 'Sesión finalizada')
     return redirect('login')
 
-def quienessomos_view(request):
-    return render(request, 'quienessomos.html',{
+def registro_view(request):
+    return render(request, 'registro.html',{
         #context
     })
+    
+def quienessomos_view(request):
+    if request.method == "POST":
+        name = request.POST.get('name', '')
+        email = request.POST.get('email', '')
+        subject = request.POST.get('subject', '')
+        message = request.POST.get('message', '')
+        
 
+        template = render_to_string('email_template.html', {
+            'name': name,
+            'email': email,
+            'message': message,
+           
+        })
+
+        recipient_email = 'manuelsanchezyara@gmail.com'
+        recipient_email1 = 'alison1valoyes2@gmail.com'
+        
+        email = EmailMessage(
+            subject,
+            template,
+            settings.EMAIL_HOST_USER,
+            [recipient_email, recipient_email1]
+        
+        )
+
+       
+        
+        email.content_subtype = 'html'
+
+        email.fail_silently = not settings.DEBUG  
+        email.send()
+
+    return render(request, 'quienessomos.html', {})
+    
 def camaras_view(request):
     return render(request, 'camaras.html',{
         #context
