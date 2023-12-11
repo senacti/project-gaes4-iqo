@@ -31,13 +31,13 @@ SECRET_KEY = 'django-insecure-vamjq$059xu+r2lk51y)10+50%av+a4rw*)$)!+tr(rd2p3qa_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'DESKTOP-MVTRTVQ', '181.61.205.206', '208.67.222.222', 'localhost:8000']
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'jazzmin',
+   'jazzmin',
     'admin_interface',
     'colorfield',
     'django.contrib.admin',
@@ -47,11 +47,19 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ordencompra',
-    'venta',
-    'inventario',
     'servicioTecnico',
+    'inventario',
+    'venta',
+    'registroUsuario',
+    'import_export',
 ]
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'alison1valoyes2@gmail.com'
+EMAIL_HOST_PASSWORD = 'jwxh htrj wfzn jxjs'  # Utiliza la contraseña de aplicación generada
+EMAIL_USE_TLS = True
 X_FRAME_OPTIONS = "SAMEORIGIN"
 SILENCED_SYSTEM_CHECKS = ["security.W019"]
 
@@ -64,7 +72,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+LOGIN_URL = '/login/'
 ROOT_URLCONF = 'IQO.urls'
 
 TEMPLATES = [
@@ -84,7 +92,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'IQO.wsgi.application'
-
+AUTH_USER_MODEL = 'registroUsuario.CustomUser'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
@@ -113,9 +121,10 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Bogota'
+
 
 USE_I18N = True
 
@@ -125,13 +134,16 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 LOGOUT_REDIRECT_URL ='/'
