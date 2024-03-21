@@ -1,0 +1,574 @@
+[Thu Mar 21 15:59:05.992322 2024] [mpm_event:notice] [pid 20960:tid 140423092288576] AH00489: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Thu Mar 21 15:59:05.992401 2024] [core:notice] [pid 20960:tid 140423092288576] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 16:15:01.359337 2024] [mpm_event:notice] [pid 20960:tid 140423092288576] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 16:19:10.347399 2024] [mpm_event:notice] [pid 22743:tid 140251845389376] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 16:19:10.347440 2024] [core:notice] [pid 22743:tid 140251845389376] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 16:19:20.582723 2024] [mpm_event:notice] [pid 22743:tid 140251845389376] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 16:19:20.686622 2024] [mpm_event:notice] [pid 23009:tid 140525448207424] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 16:19:20.686663 2024] [core:notice] [pid 23009:tid 140525448207424] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 16:19:30.756527 2024] [wsgi:error] [pid 23010:tid 140525405439744] [remote 190.27.127.58:53688] mod_wsgi (pid=23010): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:19:30.756556 2024] [wsgi:error] [pid 23010:tid 140525405439744] [remote 190.27.127.58:53688] mod_wsgi (pid=23010): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:19:30.756564 2024] [wsgi:error] [pid 23010:tid 140525405439744] [remote 190.27.127.58:53688] Traceback (most recent call last):
+[Thu Mar 21 16:19:30.756573 2024] [wsgi:error] [pid 23010:tid 140525405439744] [remote 190.27.127.58:53688]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 12, in <module>
+[Thu Mar 21 16:19:30.756600 2024] [wsgi:error] [pid 23010:tid 140525405439744] [remote 190.27.127.58:53688]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 16:19:30.756609 2024] [wsgi:error] [pid 23010:tid 140525405439744] [remote 190.27.127.58:53688] ImportError: No module named django.core.wsgi
+[Thu Mar 21 16:21:24.091158 2024] [wsgi:error] [pid 23010:tid 140525422225152] [remote 87.98.246.158:61011] mod_wsgi (pid=23010): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:21:24.091182 2024] [wsgi:error] [pid 23010:tid 140525422225152] [remote 87.98.246.158:61011] mod_wsgi (pid=23010): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:21:24.091196 2024] [wsgi:error] [pid 23010:tid 140525422225152] [remote 87.98.246.158:61011] Traceback (most recent call last):
+[Thu Mar 21 16:21:24.091210 2024] [wsgi:error] [pid 23010:tid 140525422225152] [remote 87.98.246.158:61011]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 12, in <module>
+[Thu Mar 21 16:21:24.091230 2024] [wsgi:error] [pid 23010:tid 140525422225152] [remote 87.98.246.158:61011]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 16:21:24.091243 2024] [wsgi:error] [pid 23010:tid 140525422225152] [remote 87.98.246.158:61011] ImportError: No module named django.core.wsgi
+[Thu Mar 21 16:22:12.273492 2024] [wsgi:error] [pid 23010:tid 140525405439744] [remote 190.27.127.58:53694] mod_wsgi (pid=23010): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:22:12.273509 2024] [wsgi:error] [pid 23010:tid 140525405439744] [remote 190.27.127.58:53694] mod_wsgi (pid=23010): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:22:12.273521 2024] [wsgi:error] [pid 23010:tid 140525405439744] [remote 190.27.127.58:53694] Traceback (most recent call last):
+[Thu Mar 21 16:22:12.273536 2024] [wsgi:error] [pid 23010:tid 140525405439744] [remote 190.27.127.58:53694]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 12, in <module>
+[Thu Mar 21 16:22:12.273577 2024] [wsgi:error] [pid 23010:tid 140525405439744] [remote 190.27.127.58:53694]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 16:22:12.273601 2024] [wsgi:error] [pid 23010:tid 140525405439744] [remote 190.27.127.58:53694] ImportError: No module named django.core.wsgi
+[Thu Mar 21 16:27:02.268540 2024] [mpm_event:notice] [pid 23009:tid 140525448207424] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 16:27:02.375047 2024] [mpm_event:notice] [pid 23236:tid 140038673738816] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 16:27:02.375092 2024] [core:notice] [pid 23236:tid 140038673738816] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 16:27:04.929919 2024] [wsgi:error] [pid 23237:tid 140038563829504] [remote 190.27.127.58:53702] mod_wsgi (pid=23237): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:27:04.929954 2024] [wsgi:error] [pid 23237:tid 140038563829504] [remote 190.27.127.58:53702] mod_wsgi (pid=23237): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:27:04.929964 2024] [wsgi:error] [pid 23237:tid 140038563829504] [remote 190.27.127.58:53702] Traceback (most recent call last):
+[Thu Mar 21 16:27:04.929973 2024] [wsgi:error] [pid 23237:tid 140038563829504] [remote 190.27.127.58:53702]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 12, in <module>
+[Thu Mar 21 16:27:04.929997 2024] [wsgi:error] [pid 23237:tid 140038563829504] [remote 190.27.127.58:53702]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 16:27:04.930006 2024] [wsgi:error] [pid 23237:tid 140038563829504] [remote 190.27.127.58:53702] ImportError: No module named django.core.wsgi
+[Thu Mar 21 16:28:32.062805 2024] [mpm_event:notice] [pid 23344:tid 140225869884480] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 16:28:32.062852 2024] [core:notice] [pid 23344:tid 140225869884480] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 16:28:34.588029 2024] [wsgi:error] [pid 23345:tid 140225827116800] [remote 190.27.127.58:53722] mod_wsgi (pid=23345): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:28:34.588061 2024] [wsgi:error] [pid 23345:tid 140225827116800] [remote 190.27.127.58:53722] mod_wsgi (pid=23345): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:28:34.588069 2024] [wsgi:error] [pid 23345:tid 140225827116800] [remote 190.27.127.58:53722] Traceback (most recent call last):
+[Thu Mar 21 16:28:34.588078 2024] [wsgi:error] [pid 23345:tid 140225827116800] [remote 190.27.127.58:53722]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 12, in <module>
+[Thu Mar 21 16:28:34.588101 2024] [wsgi:error] [pid 23345:tid 140225827116800] [remote 190.27.127.58:53722]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 16:28:34.588110 2024] [wsgi:error] [pid 23345:tid 140225827116800] [remote 190.27.127.58:53722] ImportError: No module named django.core.wsgi
+[Thu Mar 21 16:30:37.884149 2024] [mpm_event:notice] [pid 23344:tid 140225869884480] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 16:30:37.988659 2024] [mpm_event:notice] [pid 23459:tid 140009486191680] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 16:30:37.988702 2024] [core:notice] [pid 23459:tid 140009486191680] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 16:30:43.133692 2024] [wsgi:error] [pid 23460:tid 140009443424000] [remote 190.27.127.58:53728] mod_wsgi (pid=23460): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:30:43.134297 2024] [wsgi:error] [pid 23460:tid 140009443424000] [remote 190.27.127.58:53728] mod_wsgi (pid=23460): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:30:43.134315 2024] [wsgi:error] [pid 23460:tid 140009443424000] [remote 190.27.127.58:53728] Traceback (most recent call last):
+[Thu Mar 21 16:30:43.134330 2024] [wsgi:error] [pid 23460:tid 140009443424000] [remote 190.27.127.58:53728]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 12, in <module>
+[Thu Mar 21 16:30:43.136373 2024] [wsgi:error] [pid 23460:tid 140009443424000] [remote 190.27.127.58:53728]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 16:30:43.136391 2024] [wsgi:error] [pid 23460:tid 140009443424000] [remote 190.27.127.58:53728] ImportError: No module named django.core.wsgi
+[Thu Mar 21 16:32:05.354942 2024] [mpm_event:notice] [pid 23459:tid 140009486191680] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 16:32:05.471188 2024] [mpm_event:notice] [pid 23569:tid 140423288167488] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 16:32:05.471234 2024] [core:notice] [pid 23569:tid 140423288167488] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 16:32:11.833915 2024] [wsgi:error] [pid 23570:tid 140423245399808] [remote 190.27.127.58:53737] mod_wsgi (pid=23570): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:32:11.833955 2024] [wsgi:error] [pid 23570:tid 140423245399808] [remote 190.27.127.58:53737] mod_wsgi (pid=23570): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:32:11.833965 2024] [wsgi:error] [pid 23570:tid 140423245399808] [remote 190.27.127.58:53737] Traceback (most recent call last):
+[Thu Mar 21 16:32:11.833975 2024] [wsgi:error] [pid 23570:tid 140423245399808] [remote 190.27.127.58:53737]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 12, in <module>
+[Thu Mar 21 16:32:11.834010 2024] [wsgi:error] [pid 23570:tid 140423245399808] [remote 190.27.127.58:53737]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 16:32:11.834019 2024] [wsgi:error] [pid 23570:tid 140423245399808] [remote 190.27.127.58:53737] ImportError: No module named django.core.wsgi
+[Thu Mar 21 16:37:26.314010 2024] [mpm_event:notice] [pid 23569:tid 140423288167488] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 16:37:26.422558 2024] [mpm_event:notice] [pid 23705:tid 140594004155456] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 16:37:26.422602 2024] [core:notice] [pid 23705:tid 140594004155456] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 16:37:34.823351 2024] [wsgi:error] [pid 23706:tid 140593961387776] [remote 190.27.127.58:53749] mod_wsgi (pid=23706): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:37:34.823381 2024] [wsgi:error] [pid 23706:tid 140593961387776] [remote 190.27.127.58:53749] mod_wsgi (pid=23706): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:37:34.823392 2024] [wsgi:error] [pid 23706:tid 140593961387776] [remote 190.27.127.58:53749] Traceback (most recent call last):
+[Thu Mar 21 16:37:34.823406 2024] [wsgi:error] [pid 23706:tid 140593961387776] [remote 190.27.127.58:53749]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 16:37:34.823440 2024] [wsgi:error] [pid 23706:tid 140593961387776] [remote 190.27.127.58:53749]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 16:37:34.823453 2024] [wsgi:error] [pid 23706:tid 140593961387776] [remote 190.27.127.58:53749] ImportError: No module named django.core.wsgi
+[Thu Mar 21 16:37:35.016694 2024] [wsgi:error] [pid 23706:tid 140593978173184] [remote 190.27.127.58:53750] mod_wsgi (pid=23706): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:37:35.016715 2024] [wsgi:error] [pid 23706:tid 140593978173184] [remote 190.27.127.58:53750] mod_wsgi (pid=23706): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:37:35.016728 2024] [wsgi:error] [pid 23706:tid 140593978173184] [remote 190.27.127.58:53750] Traceback (most recent call last):
+[Thu Mar 21 16:37:35.016744 2024] [wsgi:error] [pid 23706:tid 140593978173184] [remote 190.27.127.58:53750]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 16:37:35.019947 2024] [wsgi:error] [pid 23706:tid 140593978173184] [remote 190.27.127.58:53750]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 16:37:35.019968 2024] [wsgi:error] [pid 23706:tid 140593978173184] [remote 190.27.127.58:53750] ImportError: No module named django.core.wsgi
+[Thu Mar 21 16:39:24.817433 2024] [mpm_event:notice] [pid 23705:tid 140594004155456] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 16:39:24.932601 2024] [mpm_event:notice] [pid 23815:tid 140101018373184] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 16:39:24.932658 2024] [core:notice] [pid 23815:tid 140101018373184] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 16:39:27.824433 2024] [wsgi:error] [pid 23816:tid 140100992390912] [remote 190.27.127.58:53756] mod_wsgi (pid=23816): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:39:27.824463 2024] [wsgi:error] [pid 23816:tid 140100992390912] [remote 190.27.127.58:53756] mod_wsgi (pid=23816): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:39:27.824472 2024] [wsgi:error] [pid 23816:tid 140100992390912] [remote 190.27.127.58:53756] Traceback (most recent call last):
+[Thu Mar 21 16:39:27.824481 2024] [wsgi:error] [pid 23816:tid 140100992390912] [remote 190.27.127.58:53756]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 16:39:27.824503 2024] [wsgi:error] [pid 23816:tid 140100992390912] [remote 190.27.127.58:53756]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 16:39:27.824513 2024] [wsgi:error] [pid 23816:tid 140100992390912] [remote 190.27.127.58:53756] ImportError: No module named django.core.wsgi
+[Thu Mar 21 16:39:28.025225 2024] [wsgi:error] [pid 23816:tid 140100874893056] [remote 190.27.127.58:53757] mod_wsgi (pid=23816): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:39:28.025244 2024] [wsgi:error] [pid 23816:tid 140100874893056] [remote 190.27.127.58:53757] mod_wsgi (pid=23816): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:39:28.025256 2024] [wsgi:error] [pid 23816:tid 140100874893056] [remote 190.27.127.58:53757] Traceback (most recent call last):
+[Thu Mar 21 16:39:28.025271 2024] [wsgi:error] [pid 23816:tid 140100874893056] [remote 190.27.127.58:53757]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 16:39:28.025291 2024] [wsgi:error] [pid 23816:tid 140100874893056] [remote 190.27.127.58:53757]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 16:39:28.025304 2024] [wsgi:error] [pid 23816:tid 140100874893056] [remote 190.27.127.58:53757] ImportError: No module named django.core.wsgi
+[Thu Mar 21 16:40:16.635544 2024] [mpm_event:notice] [pid 23815:tid 140101018373184] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 16:40:54.206430 2024] [mpm_event:notice] [pid 23951:tid 140112140381248] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 16:40:54.206474 2024] [core:notice] [pid 23951:tid 140112140381248] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 16:40:56.936087 2024] [wsgi:error] [pid 23952:tid 140112097613568] [remote 190.27.127.58:53762] mod_wsgi (pid=23952): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:40:56.936104 2024] [wsgi:error] [pid 23952:tid 140112097613568] [remote 190.27.127.58:53762] mod_wsgi (pid=23952): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:40:56.936114 2024] [wsgi:error] [pid 23952:tid 140112097613568] [remote 190.27.127.58:53762] Traceback (most recent call last):
+[Thu Mar 21 16:40:56.936124 2024] [wsgi:error] [pid 23952:tid 140112097613568] [remote 190.27.127.58:53762]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 16:40:56.936148 2024] [wsgi:error] [pid 23952:tid 140112097613568] [remote 190.27.127.58:53762]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 16:40:56.936687 2024] [wsgi:error] [pid 23952:tid 140112097613568] [remote 190.27.127.58:53762]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/__init__.py", line 1, in <module>
+[Thu Mar 21 16:40:56.936739 2024] [wsgi:error] [pid 23952:tid 140112097613568] [remote 190.27.127.58:53762]     from django.utils.version import get_version
+[Thu Mar 21 16:40:56.936746 2024] [wsgi:error] [pid 23952:tid 140112097613568] [remote 190.27.127.58:53762]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/version.py", line 7, in <module>
+[Thu Mar 21 16:40:56.936773 2024] [wsgi:error] [pid 23952:tid 140112097613568] [remote 190.27.127.58:53762]     from django.utils.regex_helper import _lazy_re_compile
+[Thu Mar 21 16:40:56.936777 2024] [wsgi:error] [pid 23952:tid 140112097613568] [remote 190.27.127.58:53762]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Thu Mar 21 16:40:56.936836 2024] [wsgi:error] [pid 23952:tid 140112097613568] [remote 190.27.127.58:53762]     from django.utils.functional import SimpleLazyObject
+[Thu Mar 21 16:40:56.936856 2024] [wsgi:error] [pid 23952:tid 140112097613568] [remote 190.27.127.58:53762]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/functional.py", line 265
+[Thu Mar 21 16:40:56.936859 2024] [wsgi:error] [pid 23952:tid 140112097613568] [remote 190.27.127.58:53762]     if (_wrapped := self._wrapped) is empty:
+[Thu Mar 21 16:40:56.936861 2024] [wsgi:error] [pid 23952:tid 140112097613568] [remote 190.27.127.58:53762]                  ^
+[Thu Mar 21 16:40:56.936863 2024] [wsgi:error] [pid 23952:tid 140112097613568] [remote 190.27.127.58:53762] SyntaxError: invalid syntax
+[Thu Mar 21 16:40:57.136133 2024] [wsgi:error] [pid 23952:tid 140112114398976] [remote 190.27.127.58:53761] mod_wsgi (pid=23952): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:40:57.136152 2024] [wsgi:error] [pid 23952:tid 140112114398976] [remote 190.27.127.58:53761] mod_wsgi (pid=23952): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 16:40:57.136166 2024] [wsgi:error] [pid 23952:tid 140112114398976] [remote 190.27.127.58:53761] Traceback (most recent call last):
+[Thu Mar 21 16:40:57.136181 2024] [wsgi:error] [pid 23952:tid 140112114398976] [remote 190.27.127.58:53761]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 16:40:57.136202 2024] [wsgi:error] [pid 23952:tid 140112114398976] [remote 190.27.127.58:53761]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 16:40:57.136206 2024] [wsgi:error] [pid 23952:tid 140112114398976] [remote 190.27.127.58:53761]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/__init__.py", line 1, in <module>
+[Thu Mar 21 16:40:57.136213 2024] [wsgi:error] [pid 23952:tid 140112114398976] [remote 190.27.127.58:53761]     from django.utils.version import get_version
+[Thu Mar 21 16:40:57.136217 2024] [wsgi:error] [pid 23952:tid 140112114398976] [remote 190.27.127.58:53761]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/version.py", line 7, in <module>
+[Thu Mar 21 16:40:57.136223 2024] [wsgi:error] [pid 23952:tid 140112114398976] [remote 190.27.127.58:53761]     from django.utils.regex_helper import _lazy_re_compile
+[Thu Mar 21 16:40:57.136226 2024] [wsgi:error] [pid 23952:tid 140112114398976] [remote 190.27.127.58:53761]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Thu Mar 21 16:40:57.136231 2024] [wsgi:error] [pid 23952:tid 140112114398976] [remote 190.27.127.58:53761]     from django.utils.functional import SimpleLazyObject
+[Thu Mar 21 16:40:57.136262 2024] [wsgi:error] [pid 23952:tid 140112114398976] [remote 190.27.127.58:53761]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/functional.py", line 265
+[Thu Mar 21 16:40:57.136281 2024] [wsgi:error] [pid 23952:tid 140112114398976] [remote 190.27.127.58:53761]     if (_wrapped := self._wrapped) is empty:
+[Thu Mar 21 16:40:57.136285 2024] [wsgi:error] [pid 23952:tid 140112114398976] [remote 190.27.127.58:53761]                  ^
+[Thu Mar 21 16:40:57.136289 2024] [wsgi:error] [pid 23952:tid 140112114398976] [remote 190.27.127.58:53761] SyntaxError: invalid syntax
+[Thu Mar 21 16:41:05.985186 2024] [mpm_event:notice] [pid 23951:tid 140112140381248] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 16:41:06.090013 2024] [mpm_event:notice] [pid 24057:tid 140342749580352] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 16:41:06.090058 2024] [core:notice] [pid 24057:tid 140342749580352] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 17:02:32.048396 2024] [mpm_event:notice] [pid 24057:tid 140342749580352] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 17:02:32.164313 2024] [mpm_event:notice] [pid 24177:tid 140164456131648] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 17:02:32.164358 2024] [core:notice] [pid 24177:tid 140164456131648] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 17:04:28.401792 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 185.180.140.4:45128] mod_wsgi (pid=24178): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:04:28.401818 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 185.180.140.4:45128] mod_wsgi (pid=24178): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:04:28.401829 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 185.180.140.4:45128] Traceback (most recent call last):
+[Thu Mar 21 17:04:28.401839 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 185.180.140.4:45128]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:04:28.401864 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 185.180.140.4:45128]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:04:28.401868 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 185.180.140.4:45128]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/__init__.py", line 1, in <module>
+[Thu Mar 21 17:04:28.401886 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 185.180.140.4:45128]     from django.utils.version import get_version
+[Thu Mar 21 17:04:28.401890 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 185.180.140.4:45128]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/version.py", line 7, in <module>
+[Thu Mar 21 17:04:28.401913 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 185.180.140.4:45128]     from django.utils.regex_helper import _lazy_re_compile
+[Thu Mar 21 17:04:28.401917 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 185.180.140.4:45128]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Thu Mar 21 17:04:28.401963 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 185.180.140.4:45128]     from django.utils.functional import SimpleLazyObject
+[Thu Mar 21 17:04:28.401981 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 185.180.140.4:45128]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/functional.py", line 265
+[Thu Mar 21 17:04:28.401984 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 185.180.140.4:45128]     if (_wrapped := self._wrapped) is empty:
+[Thu Mar 21 17:04:28.401986 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 185.180.140.4:45128]                  ^
+[Thu Mar 21 17:04:28.401988 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 185.180.140.4:45128] SyntaxError: invalid syntax
+[Thu Mar 21 17:04:47.742347 2024] [wsgi:error] [pid 24178:tid 140164321044224] [remote 190.27.127.58:53854] mod_wsgi (pid=24178): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:04:47.743872 2024] [wsgi:error] [pid 24178:tid 140164321044224] [remote 190.27.127.58:53854] mod_wsgi (pid=24178): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:04:47.743892 2024] [wsgi:error] [pid 24178:tid 140164321044224] [remote 190.27.127.58:53854] Traceback (most recent call last):
+[Thu Mar 21 17:04:47.743907 2024] [wsgi:error] [pid 24178:tid 140164321044224] [remote 190.27.127.58:53854]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:04:47.743927 2024] [wsgi:error] [pid 24178:tid 140164321044224] [remote 190.27.127.58:53854]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:04:47.743932 2024] [wsgi:error] [pid 24178:tid 140164321044224] [remote 190.27.127.58:53854]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/__init__.py", line 1, in <module>
+[Thu Mar 21 17:04:47.743939 2024] [wsgi:error] [pid 24178:tid 140164321044224] [remote 190.27.127.58:53854]     from django.utils.version import get_version
+[Thu Mar 21 17:04:47.743942 2024] [wsgi:error] [pid 24178:tid 140164321044224] [remote 190.27.127.58:53854]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/version.py", line 7, in <module>
+[Thu Mar 21 17:04:47.743948 2024] [wsgi:error] [pid 24178:tid 140164321044224] [remote 190.27.127.58:53854]     from django.utils.regex_helper import _lazy_re_compile
+[Thu Mar 21 17:04:47.743951 2024] [wsgi:error] [pid 24178:tid 140164321044224] [remote 190.27.127.58:53854]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Thu Mar 21 17:04:47.743957 2024] [wsgi:error] [pid 24178:tid 140164321044224] [remote 190.27.127.58:53854]     from django.utils.functional import SimpleLazyObject
+[Thu Mar 21 17:04:47.743982 2024] [wsgi:error] [pid 24178:tid 140164321044224] [remote 190.27.127.58:53854]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/functional.py", line 265
+[Thu Mar 21 17:04:47.743985 2024] [wsgi:error] [pid 24178:tid 140164321044224] [remote 190.27.127.58:53854]     if (_wrapped := self._wrapped) is empty:
+[Thu Mar 21 17:04:47.743987 2024] [wsgi:error] [pid 24178:tid 140164321044224] [remote 190.27.127.58:53854]                  ^
+[Thu Mar 21 17:04:47.743989 2024] [wsgi:error] [pid 24178:tid 140164321044224] [remote 190.27.127.58:53854] SyntaxError: invalid syntax
+[Thu Mar 21 17:04:47.946419 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 190.27.127.58:53855] mod_wsgi (pid=24178): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:04:47.946434 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 190.27.127.58:53855] mod_wsgi (pid=24178): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:04:47.946446 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 190.27.127.58:53855] Traceback (most recent call last):
+[Thu Mar 21 17:04:47.946460 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 190.27.127.58:53855]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:04:47.946479 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 190.27.127.58:53855]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:04:47.946483 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 190.27.127.58:53855]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/__init__.py", line 1, in <module>
+[Thu Mar 21 17:04:47.946490 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 190.27.127.58:53855]     from django.utils.version import get_version
+[Thu Mar 21 17:04:47.946493 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 190.27.127.58:53855]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/version.py", line 7, in <module>
+[Thu Mar 21 17:04:47.946506 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 190.27.127.58:53855]     from django.utils.regex_helper import _lazy_re_compile
+[Thu Mar 21 17:04:47.946509 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 190.27.127.58:53855]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Thu Mar 21 17:04:47.946514 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 190.27.127.58:53855]     from django.utils.functional import SimpleLazyObject
+[Thu Mar 21 17:04:47.946541 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 190.27.127.58:53855]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/functional.py", line 265
+[Thu Mar 21 17:04:47.946544 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 190.27.127.58:53855]     if (_wrapped := self._wrapped) is empty:
+[Thu Mar 21 17:04:47.946546 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 190.27.127.58:53855]                  ^
+[Thu Mar 21 17:04:47.946548 2024] [wsgi:error] [pid 24178:tid 140164329436928] [remote 190.27.127.58:53855] SyntaxError: invalid syntax
+[Thu Mar 21 17:04:57.771237 2024] [mpm_event:notice] [pid 24177:tid 140164456131648] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 17:04:57.877540 2024] [mpm_event:notice] [pid 24287:tid 140238764371008] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 17:04:57.877592 2024] [core:notice] [pid 24287:tid 140238764371008] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 17:05:00.002040 2024] [wsgi:error] [pid 24288:tid 140238654461696] [remote 190.27.127.58:53857] mod_wsgi (pid=24288): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:05:00.002067 2024] [wsgi:error] [pid 24288:tid 140238654461696] [remote 190.27.127.58:53857] mod_wsgi (pid=24288): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:05:00.002080 2024] [wsgi:error] [pid 24288:tid 140238654461696] [remote 190.27.127.58:53857] Traceback (most recent call last):
+[Thu Mar 21 17:05:00.002092 2024] [wsgi:error] [pid 24288:tid 140238654461696] [remote 190.27.127.58:53857]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:05:00.002136 2024] [wsgi:error] [pid 24288:tid 140238654461696] [remote 190.27.127.58:53857]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:05:00.002144 2024] [wsgi:error] [pid 24288:tid 140238654461696] [remote 190.27.127.58:53857]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/__init__.py", line 1, in <module>
+[Thu Mar 21 17:05:00.002170 2024] [wsgi:error] [pid 24288:tid 140238654461696] [remote 190.27.127.58:53857]     from django.utils.version import get_version
+[Thu Mar 21 17:05:00.002176 2024] [wsgi:error] [pid 24288:tid 140238654461696] [remote 190.27.127.58:53857]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/version.py", line 7, in <module>
+[Thu Mar 21 17:05:00.002213 2024] [wsgi:error] [pid 24288:tid 140238654461696] [remote 190.27.127.58:53857]     from django.utils.regex_helper import _lazy_re_compile
+[Thu Mar 21 17:05:00.002219 2024] [wsgi:error] [pid 24288:tid 140238654461696] [remote 190.27.127.58:53857]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Thu Mar 21 17:05:00.002296 2024] [wsgi:error] [pid 24288:tid 140238654461696] [remote 190.27.127.58:53857]     from django.utils.functional import SimpleLazyObject
+[Thu Mar 21 17:05:00.002320 2024] [wsgi:error] [pid 24288:tid 140238654461696] [remote 190.27.127.58:53857]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/functional.py", line 265
+[Thu Mar 21 17:05:00.002325 2024] [wsgi:error] [pid 24288:tid 140238654461696] [remote 190.27.127.58:53857]     if (_wrapped := self._wrapped) is empty:
+[Thu Mar 21 17:05:00.002328 2024] [wsgi:error] [pid 24288:tid 140238654461696] [remote 190.27.127.58:53857]                  ^
+[Thu Mar 21 17:05:00.003344 2024] [wsgi:error] [pid 24288:tid 140238654461696] [remote 190.27.127.58:53857] SyntaxError: invalid syntax
+[Thu Mar 21 17:05:00.206477 2024] [wsgi:error] [pid 24288:tid 140238738388736] [remote 190.27.127.58:53858] mod_wsgi (pid=24288): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:05:00.206495 2024] [wsgi:error] [pid 24288:tid 140238738388736] [remote 190.27.127.58:53858] mod_wsgi (pid=24288): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:05:00.206508 2024] [wsgi:error] [pid 24288:tid 140238738388736] [remote 190.27.127.58:53858] Traceback (most recent call last):
+[Thu Mar 21 17:05:00.206523 2024] [wsgi:error] [pid 24288:tid 140238738388736] [remote 190.27.127.58:53858]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:05:00.206543 2024] [wsgi:error] [pid 24288:tid 140238738388736] [remote 190.27.127.58:53858]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:05:00.206547 2024] [wsgi:error] [pid 24288:tid 140238738388736] [remote 190.27.127.58:53858]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/__init__.py", line 1, in <module>
+[Thu Mar 21 17:05:00.206554 2024] [wsgi:error] [pid 24288:tid 140238738388736] [remote 190.27.127.58:53858]     from django.utils.version import get_version
+[Thu Mar 21 17:05:00.206558 2024] [wsgi:error] [pid 24288:tid 140238738388736] [remote 190.27.127.58:53858]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/version.py", line 7, in <module>
+[Thu Mar 21 17:05:00.206564 2024] [wsgi:error] [pid 24288:tid 140238738388736] [remote 190.27.127.58:53858]     from django.utils.regex_helper import _lazy_re_compile
+[Thu Mar 21 17:05:00.206567 2024] [wsgi:error] [pid 24288:tid 140238738388736] [remote 190.27.127.58:53858]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Thu Mar 21 17:05:00.206573 2024] [wsgi:error] [pid 24288:tid 140238738388736] [remote 190.27.127.58:53858]     from django.utils.functional import SimpleLazyObject
+[Thu Mar 21 17:05:00.206600 2024] [wsgi:error] [pid 24288:tid 140238738388736] [remote 190.27.127.58:53858]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/functional.py", line 265
+[Thu Mar 21 17:05:00.206602 2024] [wsgi:error] [pid 24288:tid 140238738388736] [remote 190.27.127.58:53858]     if (_wrapped := self._wrapped) is empty:
+[Thu Mar 21 17:05:00.206604 2024] [wsgi:error] [pid 24288:tid 140238738388736] [remote 190.27.127.58:53858]                  ^
+[Thu Mar 21 17:05:00.206606 2024] [wsgi:error] [pid 24288:tid 140238738388736] [remote 190.27.127.58:53858] SyntaxError: invalid syntax
+[Thu Mar 21 17:19:10.331830 2024] [mpm_event:notice] [pid 24287:tid 140238764371008] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 17:19:10.438485 2024] [mpm_event:notice] [pid 24450:tid 140475117382720] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 17:19:10.438529 2024] [core:notice] [pid 24450:tid 140475117382720] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 17:21:06.206676 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 185.242.226.10:58124] mod_wsgi (pid=24451): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:21:06.206706 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 185.242.226.10:58124] mod_wsgi (pid=24451): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:21:06.206720 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 185.242.226.10:58124] Traceback (most recent call last):
+[Thu Mar 21 17:21:06.206733 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 185.242.226.10:58124]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:21:06.206767 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 185.242.226.10:58124]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:21:06.207643 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 185.242.226.10:58124]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/__init__.py", line 1, in <module>
+[Thu Mar 21 17:21:06.207711 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 185.242.226.10:58124]     from django.utils.version import get_version
+[Thu Mar 21 17:21:06.207721 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 185.242.226.10:58124]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/version.py", line 7, in <module>
+[Thu Mar 21 17:21:06.207765 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 185.242.226.10:58124]     from django.utils.regex_helper import _lazy_re_compile
+[Thu Mar 21 17:21:06.207788 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 185.242.226.10:58124]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Thu Mar 21 17:21:06.207870 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 185.242.226.10:58124]     from django.utils.functional import SimpleLazyObject
+[Thu Mar 21 17:21:06.207894 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 185.242.226.10:58124]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/functional.py", line 265
+[Thu Mar 21 17:21:06.207899 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 185.242.226.10:58124]     if (_wrapped := self._wrapped) is empty:
+[Thu Mar 21 17:21:06.207902 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 185.242.226.10:58124]                  ^
+[Thu Mar 21 17:21:06.207906 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 185.242.226.10:58124] SyntaxError: invalid syntax
+[Thu Mar 21 17:28:33.415011 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 87.121.69.52:52540] mod_wsgi (pid=24451): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:28:33.415032 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 87.121.69.52:52540] mod_wsgi (pid=24451): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:28:33.415046 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 87.121.69.52:52540] Traceback (most recent call last):
+[Thu Mar 21 17:28:33.415060 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 87.121.69.52:52540]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:28:33.415079 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 87.121.69.52:52540]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:28:33.415084 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 87.121.69.52:52540]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/__init__.py", line 1, in <module>
+[Thu Mar 21 17:28:33.415091 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 87.121.69.52:52540]     from django.utils.version import get_version
+[Thu Mar 21 17:28:33.415094 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 87.121.69.52:52540]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/version.py", line 7, in <module>
+[Thu Mar 21 17:28:33.415101 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 87.121.69.52:52540]     from django.utils.regex_helper import _lazy_re_compile
+[Thu Mar 21 17:28:33.415104 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 87.121.69.52:52540]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Thu Mar 21 17:28:33.415109 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 87.121.69.52:52540]     from django.utils.functional import SimpleLazyObject
+[Thu Mar 21 17:28:33.415135 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 87.121.69.52:52540]   File "/var/www/html/Proyecto-p/myenv/lib/python3.8/site-packages/django/utils/functional.py", line 265
+[Thu Mar 21 17:28:33.415149 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 87.121.69.52:52540]     if (_wrapped := self._wrapped) is empty:
+[Thu Mar 21 17:28:33.415151 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 87.121.69.52:52540]                  ^
+[Thu Mar 21 17:28:33.415153 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 87.121.69.52:52540] SyntaxError: invalid syntax
+[Thu Mar 21 17:38:19.782144 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54019] mod_wsgi (pid=24451): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:38:19.782168 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54019] mod_wsgi (pid=24451): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:38:19.782184 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54019] Traceback (most recent call last):
+[Thu Mar 21 17:38:19.782202 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54019]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:38:19.782223 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54019]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:38:19.782238 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54019] ImportError: No module named django.core.wsgi
+[Thu Mar 21 17:38:19.983737 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54018] mod_wsgi (pid=24451): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:38:19.983753 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54018] mod_wsgi (pid=24451): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:38:19.983766 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54018] Traceback (most recent call last):
+[Thu Mar 21 17:38:19.983784 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54018]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:38:19.983804 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54018]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:38:19.983818 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54018] ImportError: No module named django.core.wsgi
+[Thu Mar 21 17:39:50.306437 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54023] mod_wsgi (pid=24451): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:39:50.306463 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54023] mod_wsgi (pid=24451): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:39:50.306476 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54023] Traceback (most recent call last):
+[Thu Mar 21 17:39:50.306492 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54023]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:39:50.306513 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54023]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:39:50.306526 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54023] ImportError: No module named django.core.wsgi
+[Thu Mar 21 17:39:50.505812 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54024] mod_wsgi (pid=24451): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:39:50.505828 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54024] mod_wsgi (pid=24451): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:39:50.505840 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54024] Traceback (most recent call last):
+[Thu Mar 21 17:39:50.505865 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54024]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:39:50.505885 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54024]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:39:50.505898 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54024] ImportError: No module named django.core.wsgi
+[Thu Mar 21 17:40:24.084952 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54026] mod_wsgi (pid=24451): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:40:24.084971 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54026] mod_wsgi (pid=24451): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:40:24.084984 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54026] Traceback (most recent call last):
+[Thu Mar 21 17:40:24.085001 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54026]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:40:24.085027 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54026]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:40:24.085041 2024] [wsgi:error] [pid 24451:tid 140475007473408] [remote 190.27.127.58:54026] ImportError: No module named django.core.wsgi
+[Thu Mar 21 17:40:24.279450 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54025] mod_wsgi (pid=24451): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:40:24.279467 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54025] mod_wsgi (pid=24451): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:40:24.279479 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54025] Traceback (most recent call last):
+[Thu Mar 21 17:40:24.279495 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54025]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:40:24.279515 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54025]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:40:24.279528 2024] [wsgi:error] [pid 24451:tid 140475091400448] [remote 190.27.127.58:54025] ImportError: No module named django.core.wsgi
+[Thu Mar 21 17:43:18.895076 2024] [mpm_event:notice] [pid 24450:tid 140475117382720] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 17:43:18.998583 2024] [mpm_event:notice] [pid 31742:tid 140673337588800] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 17:43:18.998625 2024] [core:notice] [pid 31742:tid 140673337588800] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 17:43:21.803132 2024] [wsgi:error] [pid 31743:tid 140673227691776] [remote 190.27.127.58:54038] mod_wsgi (pid=31743): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:43:21.803164 2024] [wsgi:error] [pid 31743:tid 140673227691776] [remote 190.27.127.58:54038] mod_wsgi (pid=31743): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:43:21.803173 2024] [wsgi:error] [pid 31743:tid 140673227691776] [remote 190.27.127.58:54038] Traceback (most recent call last):
+[Thu Mar 21 17:43:21.803182 2024] [wsgi:error] [pid 31743:tid 140673227691776] [remote 190.27.127.58:54038]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:43:21.803206 2024] [wsgi:error] [pid 31743:tid 140673227691776] [remote 190.27.127.58:54038]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:43:21.803214 2024] [wsgi:error] [pid 31743:tid 140673227691776] [remote 190.27.127.58:54038] ImportError: No module named django.core.wsgi
+[Thu Mar 21 17:43:22.000130 2024] [wsgi:error] [pid 31743:tid 140673311618816] [remote 190.27.127.58:54037] mod_wsgi (pid=31743): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:43:22.000150 2024] [wsgi:error] [pid 31743:tid 140673311618816] [remote 190.27.127.58:54037] mod_wsgi (pid=31743): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:43:22.000163 2024] [wsgi:error] [pid 31743:tid 140673311618816] [remote 190.27.127.58:54037] Traceback (most recent call last):
+[Thu Mar 21 17:43:22.000176 2024] [wsgi:error] [pid 31743:tid 140673311618816] [remote 190.27.127.58:54037]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:43:22.000195 2024] [wsgi:error] [pid 31743:tid 140673311618816] [remote 190.27.127.58:54037]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:43:22.000208 2024] [wsgi:error] [pid 31743:tid 140673311618816] [remote 190.27.127.58:54037] ImportError: No module named django.core.wsgi
+[Thu Mar 21 17:45:38.564311 2024] [mpm_event:notice] [pid 31742:tid 140673337588800] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 17:45:38.675572 2024] [mpm_event:notice] [pid 31877:tid 140672473635904] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 17:45:38.675616 2024] [core:notice] [pid 31877:tid 140672473635904] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 17:51:16.110661 2024] [mpm_event:notice] [pid 31877:tid 140672473635904] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 17:51:16.219416 2024] [mpm_event:notice] [pid 33504:tid 139734318398528] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 17:51:16.219462 2024] [core:notice] [pid 33504:tid 139734318398528] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 17:51:22.820441 2024] [wsgi:error] [pid 33505:tid 139734275643136] [remote 190.27.127.58:54054] mod_wsgi (pid=33505): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:51:22.820473 2024] [wsgi:error] [pid 33505:tid 139734275643136] [remote 190.27.127.58:54054] mod_wsgi (pid=33505): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:51:22.820481 2024] [wsgi:error] [pid 33505:tid 139734275643136] [remote 190.27.127.58:54054] Traceback (most recent call last):
+[Thu Mar 21 17:51:22.820490 2024] [wsgi:error] [pid 33505:tid 139734275643136] [remote 190.27.127.58:54054]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:51:22.820514 2024] [wsgi:error] [pid 33505:tid 139734275643136] [remote 190.27.127.58:54054]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:51:22.820522 2024] [wsgi:error] [pid 33505:tid 139734275643136] [remote 190.27.127.58:54054] ImportError: No module named django.core.wsgi
+[Thu Mar 21 17:51:23.017169 2024] [wsgi:error] [pid 33505:tid 139734292428544] [remote 190.27.127.58:54055] mod_wsgi (pid=33505): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:51:23.017189 2024] [wsgi:error] [pid 33505:tid 139734292428544] [remote 190.27.127.58:54055] mod_wsgi (pid=33505): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:51:23.017201 2024] [wsgi:error] [pid 33505:tid 139734292428544] [remote 190.27.127.58:54055] Traceback (most recent call last):
+[Thu Mar 21 17:51:23.017216 2024] [wsgi:error] [pid 33505:tid 139734292428544] [remote 190.27.127.58:54055]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:51:23.017236 2024] [wsgi:error] [pid 33505:tid 139734292428544] [remote 190.27.127.58:54055]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:51:23.017256 2024] [wsgi:error] [pid 33505:tid 139734292428544] [remote 190.27.127.58:54055] ImportError: No module named django.core.wsgi
+[Thu Mar 21 17:56:32.652974 2024] [mpm_event:notice] [pid 33504:tid 139734318398528] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 17:56:32.766605 2024] [mpm_event:notice] [pid 33691:tid 139692506020928] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 17:56:32.766650 2024] [core:notice] [pid 33691:tid 139692506020928] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 17:56:40.784411 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54075] mod_wsgi (pid=33692): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:56:40.784448 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54075] mod_wsgi (pid=33692): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:56:40.784457 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54075] Traceback (most recent call last):
+[Thu Mar 21 17:56:40.784466 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54075]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:56:40.784490 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54075]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:56:40.784499 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54075] ImportError: No module named django.core.wsgi
+[Thu Mar 21 17:56:40.988848 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54074] mod_wsgi (pid=33692): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:56:40.988865 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54074] mod_wsgi (pid=33692): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:56:40.988878 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54074] Traceback (most recent call last):
+[Thu Mar 21 17:56:40.988891 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54074]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:56:40.988911 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54074]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:56:40.988924 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54074] ImportError: No module named django.core.wsgi
+[Thu Mar 21 17:57:42.614111 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54083] mod_wsgi (pid=33692): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:57:42.614134 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54083] mod_wsgi (pid=33692): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:57:42.614146 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54083] Traceback (most recent call last):
+[Thu Mar 21 17:57:42.614163 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54083]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:57:42.614183 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54083]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:57:42.614196 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54083] ImportError: No module named django.core.wsgi
+[Thu Mar 21 17:57:42.828611 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54084] mod_wsgi (pid=33692): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:57:42.828628 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54084] mod_wsgi (pid=33692): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:57:42.828641 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54084] Traceback (most recent call last):
+[Thu Mar 21 17:57:42.830179 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54084]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:57:42.830206 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54084]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:57:42.830221 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54084] ImportError: No module named django.core.wsgi
+[Thu Mar 21 17:57:49.223503 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54086] mod_wsgi (pid=33692): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:57:49.223523 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54086] mod_wsgi (pid=33692): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:57:49.223535 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54086] Traceback (most recent call last):
+[Thu Mar 21 17:57:49.223551 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54086]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:57:49.223573 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54086]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:57:49.223585 2024] [wsgi:error] [pid 33692:tid 139692396123904] [remote 190.27.127.58:54086] ImportError: No module named django.core.wsgi
+[Thu Mar 21 17:57:49.431334 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54085] mod_wsgi (pid=33692): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:57:49.431347 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54085] mod_wsgi (pid=33692): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:57:49.431361 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54085] Traceback (most recent call last):
+[Thu Mar 21 17:57:49.431376 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54085]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:57:49.431396 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54085]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:57:49.431410 2024] [wsgi:error] [pid 33692:tid 139692480050944] [remote 190.27.127.58:54085] ImportError: No module named django.core.wsgi
+[Thu Mar 21 17:59:19.901129 2024] [mpm_event:notice] [pid 33691:tid 139692506020928] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 17:59:20.019213 2024] [mpm_event:notice] [pid 33813:tid 140657223932992] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 17:59:20.019258 2024] [core:notice] [pid 33813:tid 140657223932992] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 17:59:20.039764 2024] [wsgi:error] [pid 33814:tid 140657223932992] Error processing line 1 of /var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/distutils-precedence.pth:
+[Thu Mar 21 17:59:20.039801 2024] [wsgi:error] [pid 33814:tid 140657223932992] 
+[Thu Mar 21 17:59:20.039954 2024] [wsgi:error] [pid 33814:tid 140657223932992]   Traceback (most recent call last):
+[Thu Mar 21 17:59:20.039964 2024] [wsgi:error] [pid 33814:tid 140657223932992]     File "/lib/python2.7/site.py", line 158, in addpackage
+[Thu Mar 21 17:59:20.039969 2024] [wsgi:error] [pid 33814:tid 140657223932992]       exec line
+[Thu Mar 21 17:59:20.039975 2024] [wsgi:error] [pid 33814:tid 140657223932992]     File "<string>", line 1, in <module>
+[Thu Mar 21 17:59:20.039980 2024] [wsgi:error] [pid 33814:tid 140657223932992]     File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/_distutils_hack/__init__.py", line 187
+[Thu Mar 21 17:59:20.039985 2024] [wsgi:error] [pid 33814:tid 140657223932992]       f'spec_for_{name}',
+[Thu Mar 21 17:59:20.039998 2024] [wsgi:error] [pid 33814:tid 140657223932992]                        ^
+[Thu Mar 21 17:59:20.040003 2024] [wsgi:error] [pid 33814:tid 140657223932992]   SyntaxError: invalid syntax
+[Thu Mar 21 17:59:20.040007 2024] [wsgi:error] [pid 33814:tid 140657223932992] 
+[Thu Mar 21 17:59:20.040010 2024] [wsgi:error] [pid 33814:tid 140657223932992] Remainder of file ignored
+[Thu Mar 21 17:59:23.370608 2024] [wsgi:error] [pid 33814:tid 140657197963008] Error processing line 1 of /var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/distutils-precedence.pth:
+[Thu Mar 21 17:59:23.370629 2024] [wsgi:error] [pid 33814:tid 140657197963008] 
+[Thu Mar 21 17:59:23.370736 2024] [wsgi:error] [pid 33814:tid 140657197963008]   Traceback (most recent call last):
+[Thu Mar 21 17:59:23.370741 2024] [wsgi:error] [pid 33814:tid 140657197963008]     File "/lib/python2.7/site.py", line 158, in addpackage
+[Thu Mar 21 17:59:23.370744 2024] [wsgi:error] [pid 33814:tid 140657197963008]       exec line
+[Thu Mar 21 17:59:23.370747 2024] [wsgi:error] [pid 33814:tid 140657197963008]     File "<string>", line 1, in <module>
+[Thu Mar 21 17:59:23.370751 2024] [wsgi:error] [pid 33814:tid 140657197963008]     File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/_distutils_hack/__init__.py", line 187
+[Thu Mar 21 17:59:23.370754 2024] [wsgi:error] [pid 33814:tid 140657197963008]       f'spec_for_{name}',
+[Thu Mar 21 17:59:23.370757 2024] [wsgi:error] [pid 33814:tid 140657197963008]                        ^
+[Thu Mar 21 17:59:23.370760 2024] [wsgi:error] [pid 33814:tid 140657197963008]   SyntaxError: invalid syntax
+[Thu Mar 21 17:59:23.370762 2024] [wsgi:error] [pid 33814:tid 140657197963008] 
+[Thu Mar 21 17:59:23.370764 2024] [wsgi:error] [pid 33814:tid 140657197963008] Remainder of file ignored
+[Thu Mar 21 17:59:23.370997 2024] [wsgi:error] [pid 33814:tid 140657197963008] [remote 190.27.127.58:54092] mod_wsgi (pid=33814): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:59:23.371004 2024] [wsgi:error] [pid 33814:tid 140657197963008] [remote 190.27.127.58:54092] mod_wsgi (pid=33814): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:59:23.371011 2024] [wsgi:error] [pid 33814:tid 140657197963008] [remote 190.27.127.58:54092] Traceback (most recent call last):
+[Thu Mar 21 17:59:23.371019 2024] [wsgi:error] [pid 33814:tid 140657197963008] [remote 190.27.127.58:54092]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:59:23.371039 2024] [wsgi:error] [pid 33814:tid 140657197963008] [remote 190.27.127.58:54092]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:59:23.371046 2024] [wsgi:error] [pid 33814:tid 140657197963008] [remote 190.27.127.58:54092] ImportError: No module named django.core.wsgi
+[Thu Mar 21 17:59:23.564277 2024] [wsgi:error] [pid 33814:tid 140657080465152] [remote 190.27.127.58:54091] mod_wsgi (pid=33814): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:59:23.564293 2024] [wsgi:error] [pid 33814:tid 140657080465152] [remote 190.27.127.58:54091] mod_wsgi (pid=33814): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 17:59:23.564306 2024] [wsgi:error] [pid 33814:tid 140657080465152] [remote 190.27.127.58:54091] Traceback (most recent call last):
+[Thu Mar 21 17:59:23.564321 2024] [wsgi:error] [pid 33814:tid 140657080465152] [remote 190.27.127.58:54091]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 17:59:23.564341 2024] [wsgi:error] [pid 33814:tid 140657080465152] [remote 190.27.127.58:54091]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 17:59:23.564354 2024] [wsgi:error] [pid 33814:tid 140657080465152] [remote 190.27.127.58:54091] ImportError: No module named django.core.wsgi
+[Thu Mar 21 18:15:33.908826 2024] [wsgi:error] [pid 33814:tid 140657197963008] [remote 190.27.127.58:54151] mod_wsgi (pid=33814): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:15:33.910237 2024] [wsgi:error] [pid 33814:tid 140657197963008] [remote 190.27.127.58:54151] mod_wsgi (pid=33814): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:15:33.910263 2024] [wsgi:error] [pid 33814:tid 140657197963008] [remote 190.27.127.58:54151] Traceback (most recent call last):
+[Thu Mar 21 18:15:33.910291 2024] [wsgi:error] [pid 33814:tid 140657197963008] [remote 190.27.127.58:54151]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 18:15:33.910337 2024] [wsgi:error] [pid 33814:tid 140657197963008] [remote 190.27.127.58:54151]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 18:15:33.910350 2024] [wsgi:error] [pid 33814:tid 140657197963008] [remote 190.27.127.58:54151] ImportError: No module named django.core.wsgi
+[Thu Mar 21 18:15:34.104285 2024] [wsgi:error] [pid 33814:tid 140657080465152] [remote 190.27.127.58:54150] mod_wsgi (pid=33814): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:15:34.104304 2024] [wsgi:error] [pid 33814:tid 140657080465152] [remote 190.27.127.58:54150] mod_wsgi (pid=33814): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:15:34.104317 2024] [wsgi:error] [pid 33814:tid 140657080465152] [remote 190.27.127.58:54150] Traceback (most recent call last):
+[Thu Mar 21 18:15:34.104333 2024] [wsgi:error] [pid 33814:tid 140657080465152] [remote 190.27.127.58:54150]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 18:15:34.104352 2024] [wsgi:error] [pid 33814:tid 140657080465152] [remote 190.27.127.58:54150]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 18:15:34.104365 2024] [wsgi:error] [pid 33814:tid 140657080465152] [remote 190.27.127.58:54150] ImportError: No module named django.core.wsgi
+[Thu Mar 21 18:18:01.448202 2024] [mpm_event:notice] [pid 33813:tid 140657223932992] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 18:18:01.552787 2024] [mpm_event:notice] [pid 33953:tid 139873983917120] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 18:18:01.552833 2024] [core:notice] [pid 33953:tid 139873983917120] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 18:18:01.568995 2024] [wsgi:error] [pid 33954:tid 139873983917120] Error processing line 1 of /var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/distutils-precedence.pth:
+[Thu Mar 21 18:18:01.569025 2024] [wsgi:error] [pid 33954:tid 139873983917120] 
+[Thu Mar 21 18:18:01.569127 2024] [wsgi:error] [pid 33954:tid 139873983917120]   Traceback (most recent call last):
+[Thu Mar 21 18:18:01.569133 2024] [wsgi:error] [pid 33954:tid 139873983917120]     File "/lib/python2.7/site.py", line 158, in addpackage
+[Thu Mar 21 18:18:01.569136 2024] [wsgi:error] [pid 33954:tid 139873983917120]       exec line
+[Thu Mar 21 18:18:01.569139 2024] [wsgi:error] [pid 33954:tid 139873983917120]     File "<string>", line 1, in <module>
+[Thu Mar 21 18:18:01.569143 2024] [wsgi:error] [pid 33954:tid 139873983917120]     File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/_distutils_hack/__init__.py", line 187
+[Thu Mar 21 18:18:01.569146 2024] [wsgi:error] [pid 33954:tid 139873983917120]       f'spec_for_{name}',
+[Thu Mar 21 18:18:01.569149 2024] [wsgi:error] [pid 33954:tid 139873983917120]                        ^
+[Thu Mar 21 18:18:01.569152 2024] [wsgi:error] [pid 33954:tid 139873983917120]   SyntaxError: invalid syntax
+[Thu Mar 21 18:18:01.569154 2024] [wsgi:error] [pid 33954:tid 139873983917120] 
+[Thu Mar 21 18:18:01.569156 2024] [wsgi:error] [pid 33954:tid 139873983917120] Remainder of file ignored
+[Thu Mar 21 18:18:04.907101 2024] [wsgi:error] [pid 33954:tid 139873957947136] Error processing line 1 of /var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/distutils-precedence.pth:
+[Thu Mar 21 18:18:04.907118 2024] [wsgi:error] [pid 33954:tid 139873957947136] 
+[Thu Mar 21 18:18:04.908099 2024] [wsgi:error] [pid 33954:tid 139873957947136]   Traceback (most recent call last):
+[Thu Mar 21 18:18:04.908107 2024] [wsgi:error] [pid 33954:tid 139873957947136]     File "/lib/python2.7/site.py", line 158, in addpackage
+[Thu Mar 21 18:18:04.908110 2024] [wsgi:error] [pid 33954:tid 139873957947136]       exec line
+[Thu Mar 21 18:18:04.908113 2024] [wsgi:error] [pid 33954:tid 139873957947136]     File "<string>", line 1, in <module>
+[Thu Mar 21 18:18:04.908116 2024] [wsgi:error] [pid 33954:tid 139873957947136]     File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/_distutils_hack/__init__.py", line 187
+[Thu Mar 21 18:18:04.908119 2024] [wsgi:error] [pid 33954:tid 139873957947136]       f'spec_for_{name}',
+[Thu Mar 21 18:18:04.908122 2024] [wsgi:error] [pid 33954:tid 139873957947136]                        ^
+[Thu Mar 21 18:18:04.908125 2024] [wsgi:error] [pid 33954:tid 139873957947136]   SyntaxError: invalid syntax
+[Thu Mar 21 18:18:04.908127 2024] [wsgi:error] [pid 33954:tid 139873957947136] 
+[Thu Mar 21 18:18:04.908129 2024] [wsgi:error] [pid 33954:tid 139873957947136] Remainder of file ignored
+[Thu Mar 21 18:18:04.913160 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54153] mod_wsgi (pid=33954): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:18:04.913169 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54153] mod_wsgi (pid=33954): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:18:04.913178 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54153] Traceback (most recent call last):
+[Thu Mar 21 18:18:04.913186 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54153]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 18:18:04.913216 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54153]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 18:18:04.913221 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54153]   File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/django/__init__.py", line 1, in <module>
+[Thu Mar 21 18:18:04.913237 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54153]     from django.utils.version import get_version
+[Thu Mar 21 18:18:04.913241 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54153]   File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/django/utils/version.py", line 7, in <module>
+[Thu Mar 21 18:18:04.913263 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54153]     from django.utils.regex_helper import _lazy_re_compile
+[Thu Mar 21 18:18:04.913266 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54153]   File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Thu Mar 21 18:18:04.913310 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54153]     from django.utils.functional import SimpleLazyObject
+[Thu Mar 21 18:18:04.913326 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54153]   File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/django/utils/functional.py", line 265
+[Thu Mar 21 18:18:04.913329 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54153]     if (_wrapped := self._wrapped) is empty:
+[Thu Mar 21 18:18:04.913331 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54153]                  ^
+[Thu Mar 21 18:18:04.913332 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54153] SyntaxError: invalid syntax
+[Thu Mar 21 18:18:05.124695 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54154] mod_wsgi (pid=33954): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:18:05.124723 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54154] mod_wsgi (pid=33954): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:18:05.124737 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54154] Traceback (most recent call last):
+[Thu Mar 21 18:18:05.124750 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54154]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 18:18:05.124770 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54154]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 18:18:05.124775 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54154]   File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/django/__init__.py", line 1, in <module>
+[Thu Mar 21 18:18:05.124782 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54154]     from django.utils.version import get_version
+[Thu Mar 21 18:18:05.124785 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54154]   File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/django/utils/version.py", line 7, in <module>
+[Thu Mar 21 18:18:05.124793 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54154]     from django.utils.regex_helper import _lazy_re_compile
+[Thu Mar 21 18:18:05.124800 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54154]   File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Thu Mar 21 18:18:05.124819 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54154]     from django.utils.functional import SimpleLazyObject
+[Thu Mar 21 18:18:05.124852 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54154]   File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/django/utils/functional.py", line 265
+[Thu Mar 21 18:18:05.124857 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54154]     if (_wrapped := self._wrapped) is empty:
+[Thu Mar 21 18:18:05.124860 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54154]                  ^
+[Thu Mar 21 18:18:05.124863 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54154] SyntaxError: invalid syntax
+[Thu Mar 21 18:29:46.313619 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54214] mod_wsgi (pid=33954): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:29:46.313642 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54214] mod_wsgi (pid=33954): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:29:46.313657 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54214] Traceback (most recent call last):
+[Thu Mar 21 18:29:46.313689 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54214]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 18:29:46.313711 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54214]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 18:29:46.313716 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54214]   File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/django/__init__.py", line 1, in <module>
+[Thu Mar 21 18:29:46.313723 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54214]     from django.utils.version import get_version
+[Thu Mar 21 18:29:46.313726 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54214]   File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/django/utils/version.py", line 7, in <module>
+[Thu Mar 21 18:29:46.313732 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54214]     from django.utils.regex_helper import _lazy_re_compile
+[Thu Mar 21 18:29:46.313744 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54214]   File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Thu Mar 21 18:29:46.313750 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54214]     from django.utils.functional import SimpleLazyObject
+[Thu Mar 21 18:29:46.313777 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54214]   File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/django/utils/functional.py", line 265
+[Thu Mar 21 18:29:46.313779 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54214]     if (_wrapped := self._wrapped) is empty:
+[Thu Mar 21 18:29:46.313781 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54214]                  ^
+[Thu Mar 21 18:29:46.313783 2024] [wsgi:error] [pid 33954:tid 139873957947136] [remote 190.27.127.58:54214] SyntaxError: invalid syntax
+[Thu Mar 21 18:29:46.515098 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54213] mod_wsgi (pid=33954): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:29:46.515114 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54213] mod_wsgi (pid=33954): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:29:46.515128 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54213] Traceback (most recent call last):
+[Thu Mar 21 18:29:46.515142 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54213]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 18:29:46.515161 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54213]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 18:29:46.515165 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54213]   File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/django/__init__.py", line 1, in <module>
+[Thu Mar 21 18:29:46.515173 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54213]     from django.utils.version import get_version
+[Thu Mar 21 18:29:46.515176 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54213]   File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/django/utils/version.py", line 7, in <module>
+[Thu Mar 21 18:29:46.515182 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54213]     from django.utils.regex_helper import _lazy_re_compile
+[Thu Mar 21 18:29:46.515185 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54213]   File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/django/utils/regex_helper.py", line 10, in <module>
+[Thu Mar 21 18:29:46.515191 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54213]     from django.utils.functional import SimpleLazyObject
+[Thu Mar 21 18:29:46.515217 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54213]   File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/django/utils/functional.py", line 265
+[Thu Mar 21 18:29:46.515220 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54213]     if (_wrapped := self._wrapped) is empty:
+[Thu Mar 21 18:29:46.515222 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54213]                  ^
+[Thu Mar 21 18:29:46.515224 2024] [wsgi:error] [pid 33954:tid 139873840449280] [remote 190.27.127.58:54213] SyntaxError: invalid syntax
+[Thu Mar 21 18:35:33.642131 2024] [mpm_event:notice] [pid 33953:tid 139873983917120] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 18:35:33.748764 2024] [mpm_event:notice] [pid 34203:tid 139958136093760] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 18:35:33.748809 2024] [core:notice] [pid 34203:tid 139958136093760] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 18:35:33.766072 2024] [wsgi:error] [pid 34204:tid 139958136093760] Error processing line 1 of /var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/distutils-precedence.pth:
+[Thu Mar 21 18:35:33.766096 2024] [wsgi:error] [pid 34204:tid 139958136093760] 
+[Thu Mar 21 18:35:33.766194 2024] [wsgi:error] [pid 34204:tid 139958136093760]   Traceback (most recent call last):
+[Thu Mar 21 18:35:33.766199 2024] [wsgi:error] [pid 34204:tid 139958136093760]     File "/lib/python2.7/site.py", line 158, in addpackage
+[Thu Mar 21 18:35:33.766202 2024] [wsgi:error] [pid 34204:tid 139958136093760]       exec line
+[Thu Mar 21 18:35:33.766205 2024] [wsgi:error] [pid 34204:tid 139958136093760]     File "<string>", line 1, in <module>
+[Thu Mar 21 18:35:33.766208 2024] [wsgi:error] [pid 34204:tid 139958136093760]     File "/var/www/html/Proyecto-p/myenv/lib/python3.9/site-packages/_distutils_hack/__init__.py", line 187
+[Thu Mar 21 18:35:33.766211 2024] [wsgi:error] [pid 34204:tid 139958136093760]       f'spec_for_{name}',
+[Thu Mar 21 18:35:33.766214 2024] [wsgi:error] [pid 34204:tid 139958136093760]                        ^
+[Thu Mar 21 18:35:33.766217 2024] [wsgi:error] [pid 34204:tid 139958136093760]   SyntaxError: invalid syntax
+[Thu Mar 21 18:35:33.766219 2024] [wsgi:error] [pid 34204:tid 139958136093760] 
+[Thu Mar 21 18:35:33.766221 2024] [wsgi:error] [pid 34204:tid 139958136093760] Remainder of file ignored
+[Thu Mar 21 18:38:24.513389 2024] [mpm_event:notice] [pid 34203:tid 139958136093760] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 18:38:24.620646 2024] [mpm_event:notice] [pid 34313:tid 140302386289728] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 18:38:24.620690 2024] [core:notice] [pid 34313:tid 140302386289728] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 18:38:26.979086 2024] [mpm_event:notice] [pid 34313:tid 140302386289728] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 18:38:27.066325 2024] [mpm_event:notice] [pid 34401:tid 139919573093440] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 18:38:27.066366 2024] [core:notice] [pid 34401:tid 139919573093440] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 18:38:30.544723 2024] [wsgi:error] [pid 34402:tid 139919546861312] [remote 190.27.127.58:54251] mod_wsgi (pid=34402): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:38:30.544757 2024] [wsgi:error] [pid 34402:tid 139919546861312] [remote 190.27.127.58:54251] mod_wsgi (pid=34402): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:38:30.544765 2024] [wsgi:error] [pid 34402:tid 139919546861312] [remote 190.27.127.58:54251] Traceback (most recent call last):
+[Thu Mar 21 18:38:30.544774 2024] [wsgi:error] [pid 34402:tid 139919546861312] [remote 190.27.127.58:54251]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 18:38:30.544794 2024] [wsgi:error] [pid 34402:tid 139919546861312] [remote 190.27.127.58:54251]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 18:38:30.544802 2024] [wsgi:error] [pid 34402:tid 139919546861312] [remote 190.27.127.58:54251] AttributeError: DistutilsMetaFinder instance has no attribute 'find_module'
+[Thu Mar 21 18:38:30.742768 2024] [wsgi:error] [pid 34402:tid 139919429363456] [remote 190.27.127.58:54252] mod_wsgi (pid=34402): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:38:30.742785 2024] [wsgi:error] [pid 34402:tid 139919429363456] [remote 190.27.127.58:54252] mod_wsgi (pid=34402): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:38:30.742798 2024] [wsgi:error] [pid 34402:tid 139919429363456] [remote 190.27.127.58:54252] Traceback (most recent call last):
+[Thu Mar 21 18:38:30.742812 2024] [wsgi:error] [pid 34402:tid 139919429363456] [remote 190.27.127.58:54252]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 18:38:30.743438 2024] [wsgi:error] [pid 34402:tid 139919429363456] [remote 190.27.127.58:54252]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 18:38:30.743456 2024] [wsgi:error] [pid 34402:tid 139919429363456] [remote 190.27.127.58:54252] AttributeError: DistutilsMetaFinder instance has no attribute 'find_module'
+[Thu Mar 21 18:38:31.651972 2024] [wsgi:error] [pid 34402:tid 139919546861312] [remote 190.27.127.58:54254] mod_wsgi (pid=34402): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:38:31.651990 2024] [wsgi:error] [pid 34402:tid 139919546861312] [remote 190.27.127.58:54254] mod_wsgi (pid=34402): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:38:31.652002 2024] [wsgi:error] [pid 34402:tid 139919546861312] [remote 190.27.127.58:54254] Traceback (most recent call last):
+[Thu Mar 21 18:38:31.652018 2024] [wsgi:error] [pid 34402:tid 139919546861312] [remote 190.27.127.58:54254]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 18:38:31.652039 2024] [wsgi:error] [pid 34402:tid 139919546861312] [remote 190.27.127.58:54254]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 18:38:31.652053 2024] [wsgi:error] [pid 34402:tid 139919546861312] [remote 190.27.127.58:54254] AttributeError: DistutilsMetaFinder instance has no attribute 'find_module'
+[Thu Mar 21 18:38:31.895443 2024] [wsgi:error] [pid 34402:tid 139919429363456] [remote 190.27.127.58:54253] mod_wsgi (pid=34402): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:38:31.895459 2024] [wsgi:error] [pid 34402:tid 139919429363456] [remote 190.27.127.58:54253] mod_wsgi (pid=34402): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:38:31.895472 2024] [wsgi:error] [pid 34402:tid 139919429363456] [remote 190.27.127.58:54253] Traceback (most recent call last):
+[Thu Mar 21 18:38:31.895487 2024] [wsgi:error] [pid 34402:tid 139919429363456] [remote 190.27.127.58:54253]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 18:38:31.895507 2024] [wsgi:error] [pid 34402:tid 139919429363456] [remote 190.27.127.58:54253]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 18:38:31.895521 2024] [wsgi:error] [pid 34402:tid 139919429363456] [remote 190.27.127.58:54253] AttributeError: DistutilsMetaFinder instance has no attribute 'find_module'
+[Thu Mar 21 18:41:21.593788 2024] [mpm_event:notice] [pid 34401:tid 139919573093440] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 18:41:21.704084 2024] [mpm_event:notice] [pid 34515:tid 139685407112256] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 18:41:21.704131 2024] [core:notice] [pid 34515:tid 139685407112256] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 18:41:24.188391 2024] [wsgi:error] [pid 34516:tid 139685372487424] [remote 190.27.127.58:54266] mod_wsgi (pid=34516): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:41:24.188421 2024] [wsgi:error] [pid 34516:tid 139685372487424] [remote 190.27.127.58:54266] mod_wsgi (pid=34516): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:41:24.188429 2024] [wsgi:error] [pid 34516:tid 139685372487424] [remote 190.27.127.58:54266] Traceback (most recent call last):
+[Thu Mar 21 18:41:24.188438 2024] [wsgi:error] [pid 34516:tid 139685372487424] [remote 190.27.127.58:54266]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 18:41:24.188459 2024] [wsgi:error] [pid 34516:tid 139685372487424] [remote 190.27.127.58:54266]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 18:41:24.188467 2024] [wsgi:error] [pid 34516:tid 139685372487424] [remote 190.27.127.58:54266] AttributeError: DistutilsMetaFinder instance has no attribute 'find_module'
+[Thu Mar 21 18:41:24.396996 2024] [wsgi:error] [pid 34516:tid 139685263382272] [remote 190.27.127.58:54267] mod_wsgi (pid=34516): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:41:24.397014 2024] [wsgi:error] [pid 34516:tid 139685263382272] [remote 190.27.127.58:54267] mod_wsgi (pid=34516): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:41:24.397026 2024] [wsgi:error] [pid 34516:tid 139685263382272] [remote 190.27.127.58:54267] Traceback (most recent call last):
+[Thu Mar 21 18:41:24.397039 2024] [wsgi:error] [pid 34516:tid 139685263382272] [remote 190.27.127.58:54267]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 18:41:24.397060 2024] [wsgi:error] [pid 34516:tid 139685263382272] [remote 190.27.127.58:54267]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 18:41:24.397074 2024] [wsgi:error] [pid 34516:tid 139685263382272] [remote 190.27.127.58:54267] AttributeError: DistutilsMetaFinder instance has no attribute 'find_module'
+[Thu Mar 21 18:48:24.830868 2024] [mpm_event:notice] [pid 34515:tid 139685407112256] AH00491: caught SIGTERM, shutting down
+[Thu Mar 21 18:48:24.937566 2024] [mpm_event:notice] [pid 34742:tid 140345546042432] AH00489: Apache/2.4.41 (Ubuntu) mod_wsgi/4.6.8 Python/2.7 configured -- resuming normal operations
+[Thu Mar 21 18:48:24.937611 2024] [core:notice] [pid 34742:tid 140345546042432] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 21 18:48:28.694291 2024] [wsgi:error] [pid 34743:tid 140345519810304] [remote 190.27.127.58:54281] mod_wsgi (pid=34743): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:48:28.694324 2024] [wsgi:error] [pid 34743:tid 140345519810304] [remote 190.27.127.58:54281] mod_wsgi (pid=34743): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:48:28.694332 2024] [wsgi:error] [pid 34743:tid 140345519810304] [remote 190.27.127.58:54281] Traceback (most recent call last):
+[Thu Mar 21 18:48:28.694341 2024] [wsgi:error] [pid 34743:tid 140345519810304] [remote 190.27.127.58:54281]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 18:48:28.694362 2024] [wsgi:error] [pid 34743:tid 140345519810304] [remote 190.27.127.58:54281]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 18:48:28.694371 2024] [wsgi:error] [pid 34743:tid 140345519810304] [remote 190.27.127.58:54281] AttributeError: DistutilsMetaFinder instance has no attribute 'find_module'
+[Thu Mar 21 18:48:28.891331 2024] [wsgi:error] [pid 34743:tid 140345402312448] [remote 190.27.127.58:54282] mod_wsgi (pid=34743): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:48:28.891350 2024] [wsgi:error] [pid 34743:tid 140345402312448] [remote 190.27.127.58:54282] mod_wsgi (pid=34743): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:48:28.891379 2024] [wsgi:error] [pid 34743:tid 140345402312448] [remote 190.27.127.58:54282] Traceback (most recent call last):
+[Thu Mar 21 18:48:28.891395 2024] [wsgi:error] [pid 34743:tid 140345402312448] [remote 190.27.127.58:54282]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 18:48:28.891418 2024] [wsgi:error] [pid 34743:tid 140345402312448] [remote 190.27.127.58:54282]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 18:48:28.891431 2024] [wsgi:error] [pid 34743:tid 140345402312448] [remote 190.27.127.58:54282] AttributeError: DistutilsMetaFinder instance has no attribute 'find_module'
+[Thu Mar 21 18:48:30.443135 2024] [wsgi:error] [pid 34743:tid 140345519810304] [remote 190.27.127.58:54283] mod_wsgi (pid=34743): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:48:30.443662 2024] [wsgi:error] [pid 34743:tid 140345519810304] [remote 190.27.127.58:54283] mod_wsgi (pid=34743): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:48:30.443687 2024] [wsgi:error] [pid 34743:tid 140345519810304] [remote 190.27.127.58:54283] Traceback (most recent call last):
+[Thu Mar 21 18:48:30.443703 2024] [wsgi:error] [pid 34743:tid 140345519810304] [remote 190.27.127.58:54283]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 18:48:30.443724 2024] [wsgi:error] [pid 34743:tid 140345519810304] [remote 190.27.127.58:54283]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 18:48:30.443738 2024] [wsgi:error] [pid 34743:tid 140345519810304] [remote 190.27.127.58:54283] AttributeError: DistutilsMetaFinder instance has no attribute 'find_module'
+[Thu Mar 21 18:48:30.636617 2024] [wsgi:error] [pid 34743:tid 140345402312448] [remote 190.27.127.58:54284] mod_wsgi (pid=34743): Failed to exec Python script file '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:48:30.636636 2024] [wsgi:error] [pid 34743:tid 140345402312448] [remote 190.27.127.58:54284] mod_wsgi (pid=34743): Exception occurred processing WSGI script '/var/www/html/Proyecto-p/fifa/wsgi.py'.
+[Thu Mar 21 18:48:30.636650 2024] [wsgi:error] [pid 34743:tid 140345402312448] [remote 190.27.127.58:54284] Traceback (most recent call last):
+[Thu Mar 21 18:48:30.636666 2024] [wsgi:error] [pid 34743:tid 140345402312448] [remote 190.27.127.58:54284]   File "/var/www/html/Proyecto-p/fifa/wsgi.py", line 4, in <module>
+[Thu Mar 21 18:48:30.636688 2024] [wsgi:error] [pid 34743:tid 140345402312448] [remote 190.27.127.58:54284]     from django.core.wsgi import get_wsgi_application
+[Thu Mar 21 18:48:30.636702 2024] [wsgi:error] [pid 34743:tid 140345402312448] [remote 190.27.127.58:54284] AttributeError: DistutilsMetaFinder instance has no attribute 'find_module'
